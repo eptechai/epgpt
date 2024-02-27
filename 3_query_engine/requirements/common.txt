@@ -1,0 +1,14 @@
+bitsandbytes
+accelerate
+faiss-cpu
+google-cloud-storage
+google-cloud-logging
+grpcio
+langchain
+pika
+pypdf
+sentence-transformers
+cryptography>=3.1
+transformers
+llama_index==0.9.11
+peft

@@ -1,0 +1,96 @@
+{
+  "dockerComposeFile": "docker-compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "forwardPorts": [5432, 4181, 8000, 5173, 5673, 15673, 5000],
+  "portsAttributes": {
+    "5432": { "label": "PostgreSQL", "onAutoForward": "silent" },
+    "4181": { "label": "LocalOAuth2Proxy", "onAutoForward": "silent" },
+    "8000": { "label": "Backend", "onAutoForward": "silent" },
+    "5173": { "label": "Frontend", "onAutoForward": "silent" },
+    "5673": { "label": "RabbitMQ", "onAutoForward": "silent" },
+    "15673": { "label": "RabbitMQ MGMT", "onAutoForward": "silent" },
+    "5000": { "label": "Local OCI Registry", "onAutoForward": "silent" }
+  },
+  "containerEnv": {
+    "DATABASE_URL": "postgres://admin:LocalPasswordOnly@localhost:5432/postgres",
+    "PUBLIC_CODESPACES": "${localEnv:CODESPACES}",
+    "PUBLIC_GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN": "${localEnv:GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}",
+    "PUBLIC_CODESPACE_NAME": "${localEnv:CODESPACE_NAME}",
+    "DOPPLER_ENV": "1",
+    "_EXPERIMENTAL_DAGGER_RUNNER_HOST":"docker-container://dagger-engine"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+		"ms-python.python",
+		"ms-azuretools.vscode-docker",
+		"svelte.svelte-vscode",
+		"mhutchie.git-graph",
+		"hashicorp.terraform",
+		"redhat.ansible",
+		"Gruntfuggly.todo-tree",
+		"mtxr.sqltools",
+		"mtxr.sqltools-driver-pg",
+		"GitHub.copilot",
+		"Prisma.prisma",
+		"esbenp.prettier-vscode",
+		"peterj.proto",
+		"ms-vscode.makefile-tools",
+		"tamasfe.even-better-toml",
+		"charliermarsh.ruff",
+		"ms-python.black-formatter",
+		"GitHub.vscode-github-actions",
+		"eamodio.gitlens",
+		"HashiCorp.HCL"
+	],
+      "settings": {
+        "python": {
+          "defaultInterpreterPath": "/workspace/venv/bin/python"
+        },
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.black-formatter",
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+          },
+          "editor.formatOnType": true
+        },
+        "sqltools.connections": [
+          {
+            "name": "Local database",
+            "driver": "PostgreSQL",
+            "server": "localhost",
+            "port": 5432,
+            "database": "postgres",
+            "username": "admin",
+            "password": "LocalPasswordOnly"
+          },
+          {
+            "name": "Dev database (via proxy)",
+            "driver": "PostgreSQL",
+            "server": "localhost",
+            "port": 5433,
+            "database": "idso2305llms-chatapp",
+            "username": "ci-user"
+          }
+        ]
+      }
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers-contrib/features/typescript:2": {},
+    "ghcr.io/devcontainers/features/sshd:1": {},
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    },
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers-contrib/features/protoc:1": {},
+    "ghcr.io/devcontainers/features/git-lfs:1": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "chmod u+x /workspace/.devcontainer/postCreateCommands.sh && /workspace/.devcontainer/postCreateCommands.sh",
+  "postStartCommand": "chmod u+x /workspace/.devcontainer/postStartCommands.sh && /workspace/.devcontainer/postStartCommands.sh",
+  "remoteUser": "root"
+}

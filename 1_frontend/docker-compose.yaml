@@ -1,0 +1,16 @@
+version: '3.3'
+services:
+  chatapp:
+    # replace the git hash using $(shell git rev-parse --short=10 HEAD)
+    image: gcr.io/trg-d-sandbox-krishna/trg-chatapp:ea317a9a6a-med
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - NODE_ENV=production
+        - VITE_OAUTH2_PROXY_ENDPOINT=${VITE_OAUTH2_PROXY_ENDPOINT}
+    env_file:
+      - .env
+    ports:
+      - 3000:3000
+    restart: on-failure

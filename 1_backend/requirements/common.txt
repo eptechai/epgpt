@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+google-cloud-storage
+google-cloud-logging
+prisma==0.10.0
+langchain
+openai
+grpcio
+python-multipart
+PyJWT
+cryptography
+python-decouple
+hypercorn
+pika
+gunicorn
+langchain
+llama_index==0.9.11

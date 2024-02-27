@@ -1,0 +1,65 @@
+syntax = "proto3";
+
+
+service IndexBuilder {
+    rpc buildIndex(buildIndexRequest) returns (buildIndexResponse) {}
+    rpc getIndex(getBuildIndexRequest) returns (getBuildIndexResponse) {}
+    rpc deleteIndex(deleteBuildIndexRequest) returns (deleteBuildIndexResponse) {}
+}
+
+message getBuildIndexRequest {
+    string conversationId = 1;
+    repeated string fileName = 2;
+}
+
+message getBuildIndexResponse {
+
+    enum IndexStatus {
+        INDEXED = 0;
+        NOT_FOUND = 1;
+    }
+
+    string conversationId = 1;
+    repeated string fileNameList = 2;
+    IndexStatus status = 3;
+}
+
+message buildIndexRequest {
+    string conversationId = 1;
+    map<string, string> indexAttachments = 2;
+    string toolName = 3;
+    string subQuestionId = 4;
+}
+
+message buildIndexResponse {
+
+    enum IndexStatus {
+        INDEXED = 0;
+        NOT_FOUND = 1;
+    }
+
+    string conversationId = 1;
+    optional bytes   defaultVectorStore = 2;
+    optional bytes   docStore = 3;
+    optional bytes   graphStore = 4;
+    optional bytes   indexStore = 5;
+    IndexStatus status = 6;
+}
+
+message deleteBuildIndexRequest {
+    string conversationId = 1;
+    string fileName = 2;
+}
+
+message deleteBuildIndexResponse {
+
+    enum DeletionStatus {
+        DELETED = 0;
+        NOT_FOUND = 1;
+        FAILED = 2;
+    }
+
+    string conversationId = 1;
+    string fileName = 2;
+    DeletionStatus status = 3;
+}

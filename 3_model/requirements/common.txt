@@ -1,0 +1,4 @@
+grpcio
+google-cloud-storage
+google-cloud-logging
+peft

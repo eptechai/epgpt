@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+
+message Attachment {
+    bytes fileContents = 1;
+    string fileName = 2;
+    string id = 3;
+    string conversationId = 4;
+}
+
+message AttachmentDeletionMessage {
+    string fileName = 1;
+    string id = 2;
+    string conversationId = 3;
+}

@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+
+service ResponseSynthesizer {
+    rpc summarizeResponse(getFinalAnswerRequest) returns (stream getFinalAnswerResponse) {}
+    rpc getSynthesizerDefaultParams(FinalEmpty) returns (FinalParams) {}
+}
+
+message getFinalAnswerResponse {
+    string Answer = 1;
+}
+
+message FinalEmpty {}
+
+message FinalParams {
+    int32 rs_k = 1;
+    int32 rs_top_k = 2;
+    float rs_temperature = 3;
+    int32 rs_max_new_tokens = 4;
+    float rs_score_threshold = 5;
+    float rs_repetition_penalty = 6;
+}
+
+message getFinalAnswerRequest {
+    string query = 1;
+    FinalParams params = 2;
+    map<string, string> qaPairs = 3;
+    bytes Sources = 4;
+}
+
+

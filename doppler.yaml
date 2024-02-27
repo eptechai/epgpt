@@ -1,0 +1,3 @@
+setup:
+  project: i0523dsollms-chatapp
+  config: dev_local

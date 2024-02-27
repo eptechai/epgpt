@@ -1,0 +1,56 @@
+syntax = "proto3";
+
+
+service QueryEngine {
+    rpc getAnswerCitations(getAnswerCitationsRequest) returns (getAnswerCitationsResponse) {}
+    rpc getSubContextLength(SubEmpty) returns (SubModelContextLengthResponse) {}
+    rpc getSubDefaultParams(SubEmpty) returns (SubParams) {}
+    rpc getSubBatchTokenizedLength(SubLengthRequest) returns (SubLengthResponse) {}
+}
+
+message getAnswerCitationsRequest {
+    string conversationId = 1;
+    string subQuestion = 2;
+    SubParams params = 3;
+    string toolName = 4;
+    string subQuestionId = 5;
+}
+
+message getAnswerCitationsResponse {
+    string Answer = 1;
+    repeated SubConvCitation citations = 2;
+    string status = 3;
+}
+
+message SubConvCitation {
+    string filename = 1;
+    int32 pagenum = 2;
+    string document_id = 3;
+    string text = 4;
+    bytes node = 5;
+}
+
+message SubEmpty {}
+
+message SubParams {
+    int32 qe_k = 1;
+    int32 qe_top_k = 2;
+    float qe_temperature = 3;
+    int32 qe_max_new_tokens = 4;
+    float qe_score_threshold = 5;
+    float qe_repetition_penalty = 6;
+    int32 qe_reranker_top_n = 7;
+    int32 qe_similarity_top_k = 8;
+}
+
+message SubLengthRequest {
+    string text = 1;
+}
+
+message SubLengthResponse {
+    int32 length = 1;
+}
+
+message SubModelContextLengthResponse {
+    int32 contextLength = 1;
+}

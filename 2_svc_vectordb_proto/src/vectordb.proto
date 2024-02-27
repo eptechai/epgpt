@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+//
+service VectorDB {
+    rpc getCitations(getCitationsRequest) returns (getCitationsResponse) {}
+}
+
+message getCitationsRequest {
+    string query = 1;
+    int32 k = 2;
+    double score_threshold = 3;
+}
+
+message getCitationsResponse {
+    repeated Citation citations = 1;
+}
+
+message Citation {
+    string filename = 1;
+    int32 pagenum = 2;
+    string text = 3;
+}

@@ -1,0 +1,164 @@
+generator client {
+  provider = "prisma-client-py"
+  output   = "./gen_dist/client"
+}
+
+datasource db {
+  provider = "postgres"
+  url      = env("DATABASE_URL")
+}
+
+model Conversation {
+  id                     String                   @id @default(uuid())
+  title                  String                   @default("Untitled Conversation")
+  parameters             Json
+  vectorDbPath           String?
+  documents              Document[]
+  messages               Message[]
+  ConversationPermission ConversationPermission[]
+  status                 ConversationStatus
+  created_At              BigInt                   @default(dbgenerated("extract(epoch from now())"))
+  updated_At              DateTime                 @updatedAt
+}
+
+model Tag {
+  id              String            @id @default(uuid())
+  name            String
+  TagOnAttachment TagOnAttachment[]
+  createdAt       BigInt            @default(dbgenerated("extract(epoch from now())"))
+  updatedAt       DateTime          @updatedAt
+}
+
+model TagOnAttachment {
+  id           String     @id @default(uuid())
+  tag          Tag        @relation(fields: [tagId], references: [id], onDelete: Cascade)
+  tagId        String
+  attachment   Attachment @relation(fields: [attachmentId], references: [id], onDelete: Cascade)
+  attachmentId String
+  createdAt    BigInt     @default(dbgenerated("extract(epoch from now())"))
+  updatedAt    DateTime   @updatedAt
+}
+
+enum ConversationStatus {
+  IDLE
+  BUSY
+}
+
+enum AttachmentStatus {
+  PENDING
+  UPLOADED
+  INDEXED
+  ERRORED
+}
+
+model Attachment {
+  id              String            @id @default(uuid())
+  status          AttachmentStatus  @default(PENDING)
+  TagOnAttachment TagOnAttachment[]
+  createdAt       BigInt            @default(dbgenerated("extract(epoch from now())"))
+  updatedAt       DateTime          @updatedAt
+  document        Document          @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  documentId      String            @unique
+  company         Company           @relation(fields: [companyId], references: [id], onDelete: Cascade)
+  companyId       String
+  subSector       SubSector         @relation(fields: [subSectorId], references: [id], onDelete: Cascade)
+  subSectorId     String
+  year            Int
+}
+
+enum MessageAuthor {
+  USER
+  BOT
+}
+
+model Message {
+  id                 String        @id @default(uuid())
+  author             MessageAuthor
+  text               String
+  conversation       Conversation  @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  conversationId     String
+  citations          Citation[]
+  createdAt          BigInt        @default(dbgenerated("extract(epoch from now())"))
+  updatedAt          DateTime      @updatedAt
+  isFeedbackPositive Boolean?
+  subQuestions       SubQuestion[]
+}
+
+model Citation {
+  id         String   @id @default(uuid())
+  content    String
+  pageNumber Int
+  fileName   String
+  message    Message  @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  messageId  String
+  createdAt  BigInt   @default(dbgenerated("extract(epoch from now())"))
+  updatedAt  DateTime @updatedAt
+  document   Document @relation(fields: [documentId], references: [id], onDelete: Cascade)
+  documentId String
+}
+
+enum ConversationPermissionRole {
+  OWNER
+}
+
+model ConversationPermission {
+  id             String                     @id @default(uuid())
+  conversation   Conversation               @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  conversationId String
+  userId         String
+  role           ConversationPermissionRole
+  createdAt      BigInt                     @default(dbgenerated("extract(epoch from now())"))
+  updatedAt      DateTime                   @updatedAt
+}
+
+model SubQuestion {
+  id        String  @id @default(uuid())
+  text      String
+  response  String
+  toolName  String
+  message   Message @relation(fields: [messageId], references: [id], onDelete: Cascade)
+  messageId String
+}
+
+enum CompanyOwner {
+  GLOBAL
+  USER
+}
+
+model Company {
+  id          String       @id @default(uuid())
+  name        String       @unique
+  toolName    String
+  subSector   SubSector    @relation(fields: [subSectorId], references: [id], onDelete: Cascade)
+  subSectorId String
+  owner       CompanyOwner
+  userId      String?
+  createdAt   BigInt       @default(dbgenerated("extract(epoch from now())"))
+  attachments Attachment[]
+}
+
+model SubSector {
+  id           String       @id @default(uuid())
+  name         String       @unique
+  companies    Company[]
+  attachaments Attachment[]
+  owner        CompanyOwner
+  userId       String?
+}
+
+enum DocumentSource {
+  CORPUS
+  USER_UPLOADED
+}
+
+model Document {
+  id             String         @id @default(uuid())
+  name           String
+  source         DocumentSource
+  link           String
+  credentials    String
+  attachment     Attachment?
+  conversation   Conversation?  @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  conversationId String?
+  citations      Citation[]
+}

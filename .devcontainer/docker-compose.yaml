@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+
+    volumes:
+      # Forwards the local Docker socket to the container.
+      # (ref: https://github.com/devcontainers/templates/blob/main/src/docker-outside-of-docker-compose/.devcontainer/docker-compose.yml)
+      - /var/run/docker.sock:/var/run/docker-host.sock
+      - ..:/workspace:cached
+
+    # Overrides default command so things don't shut down after the process ends.
+    entrypoint: /usr/local/share/docker-init.sh
+    command: sleep infinity
+    privileged: true
+
+    # Runs app on `host` network, allows "forwardPorts" in devcontainer.json function.
+    network_mode: host

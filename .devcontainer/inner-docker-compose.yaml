@@ -1,0 +1,119 @@
+version: "3"
+
+services:
+  db:
+    image: postgres:15
+    restart: unless-stopped
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: postgres
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: LocalPasswordOnly
+
+    # Runs db on `host` network, allows "forwardPorts" in devcontainer.json function.
+    network_mode: host
+
+    # Add "forwardPorts": ["5432"] to **devcontainer.json** to forward PostgreSQL locally.
+    # (Adding the "ports" property to this file will not forward from a Codespace.)
+
+  oauth2-proxy:
+    image: quay.io/oauth2-proxy/oauth2-proxy:latest
+    command:
+      - --http-address
+      - 0.0.0.0:4181
+    restart: unless-stopped
+    environment:
+      # We need to provide multiple upstreams here: frontend and backend
+      # frontend: for redirection after authentication workflow
+      # backend: for the API calls from the frontend to the backend; the proxy will stick the headers
+      #          in every subsequent API calls after user is authenticated
+      OAUTH2_PROXY_UPSTREAMS: "http://host.docker.internal:5173/,http://host.docker.internal:8000/api/"
+      OAUTH2_PROXY_PROVIDER_DISPLAY_NAME: Auth0
+      OAUTH2_PROXY_PROVIDER: oidc
+      OAUTH2_PROXY_OIDC_ISSUER_URL: https://dev-6dmtkn8e6cznkmz0.us.auth0.com/
+      OAUTH2_PROXY_CLIENT_ID: "UJNryQnjTjvCTZxDxUFSOMPY3nEN4qaO"
+
+      # AUTH_0_CLIENT_SECRET is configured in GitHub Secrets
+      OAUTH2_PROXY_CLIENT_SECRET: ${AUTH_0_CLIENT_SECRET}
+      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
+
+      # OAUTH2_PROXY_COOKIE_SECRET is configured in GitHub Secrets
+      OAUTH2_PROXY_COOKIE_SECRET: ${OAUTH2_PROXY_COOKIE_SECRET}
+      OAUTH2_PROXY_PASS_ACCESS_TOKEN: "true"
+
+      # disable https redirection for dev env
+      OAUTH2_PROXY_COOKIE_SECURE: "false"
+
+      # skip the oauth2-proxy landing page
+      OAUTH2_PROXY_CUSTOM_TEMPLATES_DIR: "/templates"
+      OAUTH2_PROXY_PASS_AUTHORIZATION_HEADER: "true"
+
+      # override the oidc discovery urls
+      OAUTH2_PROXY_SKIP_OIDC_DISCOVERY: "true"
+      OAUTH2_PROXY_REDEEM_URL: https://dev-6dmtkn8e6cznkmz0.us.auth0.com/oauth/token
+      OAUTH2_PROXY_LOGIN_URL: https://dev-6dmtkn8e6cznkmz0.us.auth0.com/authorize?audience=https://dev-6dmtkn8e6cznkmz0.us.auth0.com/api/v2/
+      OAUTH2_PROXY_OIDC_JWKS_URL: https://dev-6dmtkn8e6cznkmz0.us.auth0.com/.well-known/jwks.json
+
+      # skip for dev env
+      OAUTH2_PROXY_SKIP_AUTH_ROUTES: "^/.*$$"
+      OAUTH2_PROXY_SKIP_AUTH_PREFLIGHT: "true"
+
+      OAUTH2_PROXY_UPSTREAM_TIMEOUT: "600s"
+      OAUTH2_PROXY_COOKIE_EXPIRE: "23h"
+    volumes:
+      - ./conf/oauth2-proxy/templates:/templates:ro
+      - /srv/docker/oauth2-proxy/config/:/etc/oauth2-proxy/config
+
+    # enable access to host.docker.internal from within the container
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    # Runs oauth2-proxy on `host` network, allows "forwardPorts" in devcontainer.json function.
+    network_mode: host
+
+  rabbitmq:
+    image: rabbitmq:3.11.23-management
+    hostname: rabbitmq
+    restart: unless-stopped
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+      RABBITMQ_NODE_PORT: 5673
+    volumes:
+      - ./conf/rabbitmq/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+
+    # Runs db on `host` network, allows "forwardPorts" in devcontainer.json function.
+    network_mode: host
+
+  dagger-engine:
+    image: registry.dagger.io/engine:v0.8.8
+    container_name: dagger-engine
+    restart: unless-stopped
+    privileged: true
+    volumes:
+      - /tmp/dagger-engine:/var/lib/dagger
+      - /workspace/.devcontainer/conf/dagger-engine/buildkitd.toml:/etc/dagger/engine.toml
+      # - /workspace/.devcontainer/conf/dagger-engine/docker-daemon.json:/etc/docker/daemon.json
+    networks:
+      - dagger-network
+    extra_hosts:
+      - host.docker.internal:host-gateway
+
+  registry:
+    image: registry:2
+    hostname: registry
+    network_mode: host
+    volumes:
+      - /tmp/registry:/var/lib/registry
+    # networks:
+    #   - dagger-network
+    # ports:
+    #   - 5000:5000
+
+volumes:
+  postgres-data:
+
+networks:
+  dagger-network:
+    driver: bridge

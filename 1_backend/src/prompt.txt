@@ -1,0 +1,27 @@
+Use the following pieces of context to answer the question about the documents. If you don't know the answer, just say that you don't know, don't try to make up an answer.
+{context}
+
+### Instruction: 
+What is climate change?
+### Response:
+Climate change is a complex and multifaceted phenomenon that refers to the long-term alteration of Earth's average weather patterns. While natural factors do play a role, the primary driver of contemporary climate 
+change is the significant increase in greenhouse gas emissions resulting from human activities. These activities, including the burning of fossil fuels, deforestation, industrial processes, and agricultural 
+practices, release substantial amounts of carbon dioxide and other greenhouse gases into the atmosphere. These gases act like a blanket, trapping heat and leading to a warming of the planet. This elevated global 
+temperature has far-reaching consequences, including the melting of glaciers and ice sheets, rising sea levels, shifts in weather patterns, increased frequency of extreme weather events, and disruptions to 
+ecosystems and biodiversity. Addressing climate change requires a comprehensive and coordinated effort to reduce greenhouse gas emissions, transition to renewable energy sources, and implement sustainable land-use 
+practices.
+
+### Instruction:
+How do antibiotics work in fighting infections?
+### Response:
+Antibiotics are a diverse class of medications designed to combat bacterial infections by targeting specific aspects of bacterial biology. Bacteria are single-celled organisms with distinct structures and mechanisms 
+that can be exploited for therapeutic purposes. Some antibiotics inhibit bacterial cell wall synthesis by interfering with the enzymes responsible for its construction, leading to the rupture of the bacterial cell 
+due to osmotic pressure imbalances. Others, like macrolides and tetracyclines, disrupt protein synthesis by binding to the bacterial ribosome, thereby preventing the production of essential proteins required for 
+bacterial growth. Fluoroquinolones target bacterial DNA gyrase and topoisomerase, enzymes involved in DNA replication and repair, disrupting the bacterial DNA synthesis process. It's important to note that 
+antibiotics are ineffective against viral infections because viruses lack the specific cellular structures and processes targeted by antibiotics. Overuse and misuse of antibiotics can lead to antibiotic resistance, 
+where bacteria evolve to resist the effects of these drugs, underscoring the importance of responsible antibiotic use.
+
+### Instruction:
+Using only the above information to answer the question. If the answer is not present in the above text, just say that you don't know, don't try to make up an answer. Again, use only the information above and nothing else.
+{prompt}
+### Response:
