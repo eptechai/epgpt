@@ -345,23 +345,23 @@ async def post_message(
             sub="Krishna",
         )
 
-    await prisma.conversationpermission.create(
-        {
-            "userId": user.sub,
-            "role": "OWNER",
-            "conversation": {
-                "create": {
-                    "id": str(id),
-                    "parameters": json.dumps(
-                        {
-                           "params": "test",
-                        }
-                    ),
-                    "status": "IDLE",
-                }
-            },
-        }
-    )
+    # await prisma.conversationpermission.create(
+    #     {
+    #         "userId": user.sub,
+    #         "role": "OWNER",
+    #         "conversation": {
+    #             "create": {
+    #                 "id": str(id),
+    #                 "parameters": json.dumps(
+    #                     {
+    #                        "params": "test",
+    #                     }
+    #                 ),
+    #                 "status": "IDLE",
+    #             }
+    #         },
+    #     }
+    # )
 
     async def model_response_wrapper(model_response):
         tokens = []
@@ -369,13 +369,6 @@ async def post_message(
             _logger.debug(f"Streaming response for conversation {id}...")
             # This is the message ID of the user's message
             # Will be used for cancelling the streaming or retrying
-            yield message_db_record.id
-            yield ";"
-
-            # This is the message ID of the bot's message
-            # Will be used to extract the citations attached to the message
-            yield bot_message.id
-            yield "<|endofid|>"
 
             for token in model_response:
                 tokens.append(token)
@@ -443,7 +436,14 @@ async def post_message(
         # Initialize services
         response_synthesizer = ResponseSynthesizerService(id=id)
         # qe_params = {k: v for k, v in conversation.parameters.items() if k.startswith("qe_")}
-        # rs_params = {k: v for k, v in conversation.parameters.items() if k.startswith("rs_")}
+        rs_params = {
+            "rs_k": 5,
+            "rs_top_k": 5,
+            "rs_temperature": 0.25,
+            "rs_max_new_tokens": 250,
+            "rs_score_threshold": 0.7,
+            "rs_repetition_penalty": 1.2,
+        }
 
         # Fetch companies from DB: To build metadata
         companies_list = await prisma.company.find_many(include={"subSector": True})
@@ -452,51 +452,52 @@ async def post_message(
 
         # Generate sub-questions
         subq_generator = SubQuestionGenerator(companies=companies)
-        sub_questions = subq_generator.generate_subquestions(query=message.prompt)
-        qa_pairs = {}
+        # sub_questions = subq_generator.generate_subquestions(query=message.prompt)
+        sub_questions = ["Hello World"]
+        qa_pairs = {k:"" for k in sub_questions}
         citations = []
         source_nodes = []
         subquestion_responses = {}
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            results = []
-            for question, tool_name, record_id in sub_questions:
-                await prisma.subquestion.create(
-                    {
-                        "id": record_id,
-                        "text": question,
-                        "response": "",
-                        "toolName": tool_name,
-                        "messageId": bot_message.id,
-                    }
-                )
-                attachments = await prisma.attachment.find_many(
-                    where={"document": {"conversationId": id}, "company": {"toolName": tool_name}},
-                    include={"document": True, "company": True},
-                )
-                results.append(
-                    executor.submit(handle_subquestion, question, tool_name, record_id, attachments)
-                )
+        # with ThreadPoolExecutor(max_workers=5) as executor:
+        #     results = []
+        #     for question, tool_name, record_id in sub_questions:
+        #         await prisma.subquestion.create(
+        #             {
+        #                 "id": record_id,
+        #                 "text": question,
+        #                 "response": "",
+        #                 "toolName": tool_name,
+        #                 "messageId": bot_message.id,
+        #             }
+        #         )
+        #         attachments = await prisma.attachment.find_many(
+        #             where={"document": {"conversationId": id}, "company": {"toolName": tool_name}},
+        #             include={"document": True, "company": True},
+        #         )
+        #         results.append(
+        #             executor.submit(handle_subquestion, question, tool_name, record_id, attachments)
+        #         )
 
-            wait(results)
-            try:
-                for record_id, answer in subquestion_responses.items():
-                    await prisma.subquestion.update(where={"id": record_id}, data={"response": answer})
+        #     wait(results)
+        #     try:
+        #         for record_id, answer in subquestion_responses.items():
+        #             await prisma.subquestion.update(where={"id": record_id}, data={"response": answer})
 
-                citations_length = await prisma.citation.create_many(
-                    [
-                        {
-                            "content": citation.text.replace("\x00", ""),
-                            "pageNumber": citation.pagenum,
-                            "fileName": citation.filename,
-                            "messageId": bot_message.id,
-                            "documentId": citation.document_id,
-                        }
-                        for citation in citations
-                    ]
-                )
-                _logger.info(f"Created {citations_length} citations for message {bot_message.id}")
-            except Exception as exc:
-                _logger.exception(f"Failed to store citations in the DB: {str(exc)}")
+        #         citations_length = await prisma.citation.create_many(
+        #             [
+        #                 {
+        #                     "content": citation.text.replace("\x00", ""),
+        #                     "pageNumber": citation.pagenum,
+        #                     "fileName": citation.filename,
+        #                     "messageId": bot_message.id,
+        #                     "documentId": citation.document_id,
+        #                 }
+        #                 for citation in citations
+        #             ]
+        #         )
+        #         _logger.info(f"Created {citations_length} citations for message {bot_message.id}")
+        #     except Exception as exc:
+        #         _logger.exception(f"Failed to store citations in the DB: {str(exc)}")
 
         final_answer = response_synthesizer.get_final_answer(
             query=message.prompt,

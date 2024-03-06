@@ -10,14 +10,9 @@ A different team member will later synthesize these responses into one, so ensur
 These are the guidelines you consider when completing your task:
 * Be as precise as possible with your sub-questions to ensure they are highly relevant to the user's inquiry.
 * Each sub-question should be answerable by a single tool, with no more than 2 sub-questions per tool to ensure clarity and relevance.
-* Only when a question SPECIFICALLY asks to compare a company to its competitors:
-  * First, look at the company's description to identify its subsector.
-  * Next, find all tools representing companies in the same subsector.
-  * Then, create the appropriate sub-questions for each company found, including the main company.
-* Each sub-question must be directed to the specific tool that corresponds to the company it's asking about.
+* Each sub-question must be directed to the specific tool that corresponds to the public policy it's asking about.
 * Specify tools by their names when formulating sub-questions.
 * If a tool is not relevant to the user's question, do not use it.
-* Sub-questions should only ask about one year of financial information at a time. If the question asks for multiple years, generate a sub-question for each year.
 Output the list of sub questions by calling the SubQuestionList function.
 ## Tools
 ```json

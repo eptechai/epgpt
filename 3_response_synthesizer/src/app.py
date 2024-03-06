@@ -11,8 +11,9 @@ from response_synthesizer_proto import (
     response_synthesizer_pb2,
     response_synthesizer_pb2_grpc,
 )
+import logging
 
-_logger = create_logger("response_synthesizer:app")
+_logger = logging.getLogger("response_synthesizer:app")
 
 
 class ResponseSynthesizerService(
@@ -85,7 +86,6 @@ async def serve():
 
 
 if __name__ == "__main__":
-    configure_logging()
 
     asyncio.run(serve())
 ## END BOILERPLATE

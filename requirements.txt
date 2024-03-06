@@ -6,6 +6,6 @@
 # -r 3_conversation_index/requirements/dev.txt
 # -r 3_index_builder/requirements/dev.txt
 # -r 3_query_engine/requirements/dev.txt
-# -r 3_response_synthesizer/requirements/dev.txt
+ -r 3_response_synthesizer/requirements/dev.txt
 black
 ruff
