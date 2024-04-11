@@ -35,8 +35,6 @@ deploy/dev:
 
 ## Dependency Commands
 setup:
-	pnpm install
-	cd 1_frontend && make setup
 	pip install -r requirements.txt
 
 docker/images:

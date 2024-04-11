@@ -1,7 +1,0 @@
-grpcio
-langchain
-sentence-transformers
-faiss-cpu
-python-dotenv
-google-cloud-storage
-google-cloud-logging

@@ -1,6 +1,7 @@
 # The root Python requirements file for this repository installs dev requirements from each subrepo.
 # -r 0_common/requirements.txt
 -r 1_backend/requirements/dev.txt
+-r 1_demo_frontend/requirements/dev.txt
 # -r 3_model/requirements/dev.txt
 # -r 2_svc_vectordb/requirements/dev.txt
 # -r 3_conversation_index/requirements/dev.txt

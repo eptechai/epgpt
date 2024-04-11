@@ -7,7 +7,7 @@ import base64
 import requests
 
 
-im = Image.open("static/img/icon.png")
+im = Image.open("static/img/valere.jpeg")
 st.set_page_config(
     page_title="Smart Document Analyzer",
     page_icon=im,
@@ -39,7 +39,7 @@ def add_bg_from_local(image_file):
 
 with st.sidebar:
 
-    add_bg_from_local('static/img/bg.png')
+    add_bg_from_local('static/img/valere.jpeg')
     tab3, tab4 = st.tabs(["History", "Settings"])
     with tab3:
         st.title("Assistant History")
@@ -69,7 +69,7 @@ if prompt := st.chat_input("What is up?"):
             full_response = ""
             # Simulate stream of response with milliseconds delay
             with requests.post('http://127.0.0.1:8000/api/conversation/1234/message', stream=True, json={"prompt":prompt}) as r:
-                for chunk in r.iter_content(20):
+                for chunk in r.iter_content(10):
                     #get content in response
                     print(chunk)
                     full_response += chunk.decode("utf-8")
