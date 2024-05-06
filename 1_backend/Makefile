@@ -71,6 +71,6 @@ format:
 build/docker:
 	docker build -t ${DOCKER_IMAGE_NAME}:latest .
 run/docker: build/docker
-	docker run -p 8000:8000 --net=host -e DOPPLER_TOKEN="$$(doppler configs tokens create docker --max-age 1m --plain)" ${DOCKER_IMAGE_NAME}:latest
+	docker run -it -p 8000:8000 --net=host ${DOCKER_IMAGE_NAME}:latest
 
 .PHONY: test

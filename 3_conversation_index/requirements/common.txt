@@ -1,9 +1,0 @@
-faiss-cpu
-google-cloud-storage
-google-cloud-logging
-grpcio
-langchain
-pika
-pypdf
-sentence-transformers
-cryptography>=3.1

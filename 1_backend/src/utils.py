@@ -5,10 +5,19 @@ from dataclasses import dataclass
 
 import httpx
 import jwt
+from httpx import Response as HttpxResponse
+from httpx import TimeoutException
+from requests import Response
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives.asymmetric import rsa
 from fastapi import HTTPException, Request
 from variables import AUTH_0_CLIENT_ID, AUTH_0_JWKS_URL, DEBUG
+from json import JSONDecodeError
+from typing import Union
+from requests.exceptions import Timeout
+import logging
+
+_logger = logging.getLogger("backend:app")
 
 
 @dataclass
@@ -68,3 +77,51 @@ def extract_user(request: Request):
         return User(username=res["name"], email=res["email"], sub=res["sub"])
     else:
         raise HTTPException(status_code=401, detail="Unauthorized")
+    
+
+async def async_http_request(
+    client, method, url, error="raise", params=None, headers=None, **kwargs
+):
+    params = params or {}
+    headers = headers or {}
+    validate_parameters(error)
+    try:
+        response = await client.request(
+            method, url, params=params, headers=headers, **kwargs
+        )
+    except Exception as e:
+        return handle_exception(e, method, url, error)
+
+    return encapsulate_response(response)
+
+
+def validate_parameters(error: str):
+    if error not in ("raise", "ignore"):
+        raise ValueError(f"Unknown value {error} for parameter error")
+    
+def handle_exception(exc: Exception, method: str, url: str, error: str):
+    if isinstance(exc, (Timeout, TimeoutException)):
+        message = "Timeout on request to url"
+    else:
+        message = "error sending request to url"
+
+    _logger.error(
+        message,
+        extra={"method": method, "url": url},
+        exc_info=True,
+    )
+
+    if error == "raise":
+        raise exc
+
+    _logger.info("error ignored", extra={"error": exc})
+    return {"response_code": None, "data": {}}
+
+
+def encapsulate_response(response: Union[Response, HttpxResponse]):
+    try:
+        data = response.json()
+    except (UnicodeDecodeError, JSONDecodeError):
+        data = {}
+
+    return {"response_code": response.status_code, "data": data}

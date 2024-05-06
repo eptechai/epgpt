@@ -48,27 +48,24 @@ from response_spec import (
     SubsectorListResponse,
     SubsectorResponse,
 )
-from response_synthesizer import ResponseSynthesizerService
+from response_synthesizer_api import ResponseSynthesizerService
 from starlette.background import BackgroundTask
 
 from sub_question_generator import SubQuestionGenerator
 from utils import User, extract_user
-import logging
-_logger = logging.getLogger("backend:app")
+from logger import create_logger
+_logger = create_logger("backend:app")
 
 
 
 # Below context creates global objects that are shared across requests
 # It automatically picks up the datasource configured in schema.prisma
-prisma = Prisma()
 
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     _logger.info("Hello")
-    await prisma.connect()
     yield
-    await prisma.disconnect()
 
 
 app = FastAPI(lifespan=lifespan, debug=True)
@@ -84,14 +81,14 @@ async def validate_request(request: Request, id: str, user: Annotated[User, Depe
     :param chat_id: Conversation ID
     :param dialogue_id: Dialogue ID within the conversation
     """
-    try:
-        await prisma.conversationpermission.find_first_or_raise(
-            where={"conversationId": id, "userId": user.sub},
-            include={"conversation": True},
-        )
-    except RecordNotFoundError:
-        _logger.exception(f"Conversation: {id}|{user.username} Record Not Found")
-        raise HTTPException(status_code=403, detail="Conversation Not Found/Not Authorized")
+    # try:
+    #     await prisma.conversationpermission.find_first_or_raise(
+    #         where={"conversationId": id, "userId": user.sub},
+    #         include={"conversation": True},
+    #     )
+    # except RecordNotFoundError:
+    #     _logger.exception(f"Conversation: {id}|{user.username} Record Not Found")
+    #     raise HTTPException(status_code=403, detail="Conversation Not Found/Not Authorized")
 
     return user
 
@@ -118,24 +115,24 @@ async def create_conversation(request: Request, user: Annotated[User, Depends(ex
     :returns: Conversation UUID
     """
     conversation_id = uuid.uuid4()
-    await prisma.conversationpermission.create(
-        {
-            "userId": user.sub,
-            "role": "OWNER",
-            "conversation": {
-                "create": {
-                    "id": str(conversation_id),
-                    "parameters": json.dumps(
-                        {
-                            **QueryEngineService(id=conversation_id).get_params(),
-                            **ResponseSynthesizerService(id=conversation_id).get_params(),
-                        }
-                    ),
-                    "status": "IDLE",
-                }
-            },
-        }
-    )
+    # await prisma.conversationpermission.create(
+    #     {
+    #         "userId": user.sub,
+    #         "role": "OWNER",
+    #         "conversation": {
+    #             "create": {
+    #                 "id": str(conversation_id),
+    #                 "parameters": json.dumps(
+    #                     {
+    #                         **QueryEngineService(id=conversation_id).get_params(),
+    #                         **ResponseSynthesizerService(id=conversation_id).get_params(),
+    #                     }
+    #                 ),
+    #                 "status": "IDLE",
+    #             }
+    #         },
+    #     }
+    # )
     _logger.debug(f"Created conversation {conversation_id} for user {user.username}")
     return {"conversation_id": conversation_id}
 
@@ -156,28 +153,28 @@ async def get_conversation_history(
     Gets all conversations that the user has access to
     :returns Returns a list of conversations
     """
-    conversation_permissions = await prisma.conversationpermission.find_many(
-        take=limit,
-        include={"conversation": True},
-        where={
-            "userId": user.sub,
-            "conversation": {"createdAt": {"lt": next_cursor if next_cursor else int(time.time())}},
-        },
-        order={"conversation": {"createdAt": "desc"}},
-    )
-
-    return {
-        "conversations": [
-            {
-                "id": conversation_permission.conversationId,
-                "title": conversation_permission.conversation.title,
-            }
-            for conversation_permission in conversation_permissions
-        ],
-        "next_cursor": conversation_permissions[-1].conversation.createdAt
-        if conversation_permissions and len(conversation_permissions) == limit
-        else 1,
-    }
+    # conversation_permissions = await prisma.conversationpermission.find_many(
+    #     take=limit,
+    #     include={"conversation": True},
+    #     where={
+    #         "userId": user.sub,
+    #         "conversation": {"createdAt": {"lt": next_cursor if next_cursor else int(time.time())}},
+    #     },
+    #     order={"conversation": {"createdAt": "desc"}},
+    # )
+    return {"convesartions": []}
+    # return {
+    #     "conversations": [
+    #         {
+    #             "id": conversation_permission.conversationId,
+    #             "title": conversation_permission.conversation.title,
+    #         }
+    #         for conversation_permission in conversation_permissions
+    #     ],
+    #     "next_cursor": conversation_permissions[-1].conversation.createdAt
+    #     if conversation_permissions and len(conversation_permissions) == limit
+    #     else 1,
+    # }
 
 
 @router.get(
@@ -200,14 +197,14 @@ async def delete_conversation(request: Request, id: str, user: Annotated[User, D
     Deletes the conversation from the User's History
     """
     rabbitmq = RabbitMQ(queue_name=vars.INDEX_DELETION_QUEUE)
-    attachments = await prisma.attachment.find_many(where={"document": {"conversationId": id}})
-    for attachment in attachments:
-        attachment_deletion_message = AttachmentDeletionMessage(
-            id=attachment.id,
-            conversationId=attachment.conversationId,
-            fileName=attachment.document.name,
-        )
-        rabbitmq.send(attachment_deletion_message.SerializeToString())
+    # attachments = await prisma.attachment.find_many(where={"document": {"conversationId": id}})
+    # for attachment in attachments:
+    #     attachment_deletion_message = AttachmentDeletionMessage(
+    #         id=attachment.id,
+    #         conversationId=attachment.conversationId,
+    #         fileName=attachment.document.name,
+    #     )
+    #     rabbitmq.send(attachment_deletion_message.SerializeToString())
     _logger.debug(f"Notified through RabbitMQ for conversation:{id} deletion")
 
     # Remove all attachments from GCS for this conversation
@@ -216,7 +213,7 @@ async def delete_conversation(request: Request, id: str, user: Annotated[User, D
     _logger.debug(f"Deleted all attachments for conversation:{id}")
 
     # OnDelete: Cascade is the default behaviour
-    await prisma.conversation.delete(where={"id": id})
+    # await prisma.conversation.delete(where={"id": id})
     _logger.debug(f"Deleted conversation:{id}")
 
     return {"status": "OK"}
@@ -240,10 +237,11 @@ async def configure_params(
     }
     default_params.update(params.__dict__)
 
-    conversation = await prisma.conversation.update(
-        where={"id": id}, data={"parameters": json.dumps(default_params)}
-    )
-    return conversation.parameters
+    # conversation = await prisma.conversation.update(
+    #     where={"id": id}, data={"parameters": json.dumps(default_params)}
+    # )
+    # return conversation.parameters
+    return {"parameters": json.dumps(default_params)}
 
 
 @router.get(
@@ -253,8 +251,14 @@ async def configure_params(
     tags=["conversation"],
 )
 async def get_params(request: Request, id: str, user: Annotated[User, Depends(validate_request)]):
-    conversation = await prisma.conversation.find_unique(where={"id": id})
-    return conversation.parameters
+    # conversation = await prisma.conversation.find_unique(where={"id": id})
+    # return conversation.parameters
+    default_params = {
+        **QueryEngineService(id=id).get_params(),
+        **ResponseSynthesizerService(id=id).get_params(),
+    }
+    
+    return {"parameters": json.dumps(default_params)}
 
 
 @router.get(
@@ -269,18 +273,21 @@ async def get_messages(
     limit: int = None,
     next_cursor: int = None,
 ):
-    messages = await prisma.message.find_many(
-        take=limit,
-        where={
-            "conversationId": id,
-            "createdAt": {"lt": next_cursor if next_cursor else int(time.time())},
-        },
-        include={"citations": True},
-        order={"createdAt": "desc"},
-    )
+    # messages = await prisma.message.find_many(
+    #     take=limit,
+    #     where={
+    #         "conversationId": id,
+    #         "createdAt": {"lt": next_cursor if next_cursor else int(time.time())},
+    #     },
+    #     include={"citations": True},
+    #     order={"createdAt": "desc"},
+    # )
+    # return {
+    #     "messages": messages[::-1],
+    #     "next_cursor": messages[-1].createdAt if messages and len(messages) == limit else 1,
+    # }
     return {
-        "messages": messages[::-1],
-        "next_cursor": messages[-1].createdAt if messages and len(messages) == limit else 1,
+        "messages": "messages",
     }
 
 
@@ -295,8 +302,8 @@ async def get_citations(
     request: Request,
     user: Annotated[User, Depends(validate_request)],
 ):
-    citations = await prisma.citation.find_many(where={"messageId": message_id})
-    return {"citations": citations}
+    # citations = await prisma.citation.find_many(where={"messageId": message_id})
+    return {"citations": "citations"}
 
 
 @router.post("/conversation/{id}/message/{message_id}/feedback", tags=["message"], status_code=200)
@@ -308,9 +315,10 @@ async def save_user_feedback(
     user: Annotated[User, Depends(validate_request)],
 ):
     try:
-        message = await prisma.message.update(
-            where={"id": message_id}, data={"isFeedbackPositive": message_feedback.is_feedback_positive}
-        )
+        # message = await prisma.message.update(
+        #     where={"id": message_id}, data={"isFeedbackPositive": message_feedback.is_feedback_positive}
+        # )
+        message = "message"
     except Exception as e:
         _logger.exception(f"{e}")
         raise HTTPException(500, f"Internal server error: {e}")
@@ -319,15 +327,6 @@ async def save_user_feedback(
 
 # Function will only be used for streaming APIs because if the stream gets cancelled, the connection will be closed
 # If the global prisma object is used, it will be disconnected and the subsequent requests will fail
-async def get_prisma():
-    try:
-        prisma = Prisma()
-        if not prisma.is_connected():
-            await prisma.connect()
-
-        yield prisma
-    finally:
-        await prisma.disconnect()
 
 
 @router.post("/conversation/{id}/message", tags=["message"])
@@ -369,17 +368,17 @@ async def post_message(
             _logger.debug(f"Streaming response for conversation {id}...")
             # This is the message ID of the user's message
             # Will be used for cancelling the streaming or retrying
-
+            model_response_wrapper
             for token in model_response:
                 tokens.append(token)
                 yield token
-            yield "<|endoftext|>"
+            yield ""
         finally:
             if not tokens:
                 tokens = ["Connection", "closed", "by", "client"]
 
-            await prisma.message.update(where={"id": bot_message.id}, data={"text": "".join(tokens)})
-            _logger.info(f"Updated message {bot_message.id} with response from LLM: {''.join(tokens)}")
+            # await prisma.message.update(where={"id": bot_message.id}, data={"text": "".join(tokens)})
+            _logger.info(f"Updated message  with response from LLM: {''.join(tokens)}")
 
     def handle_subquestion(sub_question, tool_name, record_id, attachments):
         attachment_ids = {
@@ -418,19 +417,19 @@ async def post_message(
     # )
     _logger.debug(f"Created message abc for conversation {id}")
 
-    bot_message = await prisma.message.create(
-        data={
-            "author": "BOT",
-            # TODO: Add the constructed prompt as well to the DB
-            "text": "Pending...",
-            "conversationId": id,
-            "createdAt": 11,
-        }
-    )
-    await prisma.conversation.update(where={"id": id}, data={"status": "BUSY"})
+    # bot_message = await prisma.message.create(
+    #     data={
+    #         "author": "BOT",
+    #         # TODO: Add the constructed prompt as well to the DB
+    #         "text": "Pending...",
+    #         "conversationId": id,
+    #         "createdAt": 11,
+    #     }
+    # )
+    # await prisma.conversation.update(where={"id": id}, data={"status": "BUSY"})
     _logger.debug(f"Updated conversation {id} status to BUSY")
 
-    conversation = await prisma.conversation.find_unique(where={"id": id})
+    # conversation = await prisma.conversation.find_unique(where={"id": id})
 
     try:
         # Initialize services
@@ -446,13 +445,13 @@ async def post_message(
         }
 
         # Fetch companies from DB: To build metadata
-        companies_list = await prisma.company.find_many(include={"subSector": True})
-        companies = {company.name: company.subSector.name for company in companies_list}
-        _logger.info(f"companies from db: {companies}")
+        # companies_list = await prisma.company.find_many(include={"subSector": True})
+        # companies = {company.name: company.subSector.name for company in companies_list}
+        # _logger.info(f"companies from db: {companies}")
 
         # Generate sub-questions
-        subq_generator = SubQuestionGenerator(companies=companies)
-        # sub_questions = subq_generator.generate_subquestions(query=message.prompt)
+        subq_generator = SubQuestionGenerator(companies={})
+        sub_questions = subq_generator.generate_subquestions(query=message.prompt)
         sub_questions = ["Hello World"]
         qa_pairs = {k:"" for k in sub_questions}
         citations = []
@@ -499,27 +498,28 @@ async def post_message(
         #     except Exception as exc:
         #         _logger.exception(f"Failed to store citations in the DB: {str(exc)}")
 
-        final_answer = response_synthesizer.get_final_answer(
+        final_answer = await response_synthesizer.get_final_answer(
             query=message.prompt,
             params=rs_params,
             qa_pairs=qa_pairs,
             sources=source_nodes,
         )
-        _logger.info("Streaming response from synthesizer...")
-        return StreamingResponse(model_response_wrapper(final_answer))
+        
+        _logger.info(f"Streaming response from synthesizer {final_answer}")
+        return final_answer
 
     except HTTPException as exc:
-        await prisma.message.update(where={"id": bot_message.id}, data={"text": f"Error: {exc}"})
+        # await prisma.message.update(where={"id": bot_message.id}, data={"text": f"Error: {exc}"})
         raise exc
 
     except Exception as exc:
         _logger.exception(f"Exception occurred: {exc}")
         data = {"text": "Sorry, I am unable to respond"}
-        await prisma.message.update(where={"id": bot_message.id}, data=data)
+        # await prisma.message.update(where={"id": bot_message.id}, data=data)
         raise HTTPException(status_code=500, detail="Internal Server Error")
 
-    finally:
-        await prisma.conversation.update(where={"id": id}, data={"status": "IDLE"})
+    # finally:
+    #     await prisma.conversation.update(where={"id": id}, data={"status": "IDLE"})
 
 
 @router.post("/conversation/{id}/message/{message_id}/cancel", status_code=202, tags=["message"])
@@ -529,15 +529,15 @@ async def cancel_streaming(
     request: Request,
     user: Annotated[User, Depends(validate_request)],
 ):
-    latest_message_id = await prisma.message.find_first(
-        where={"conversationId": id, "author": "BOT"}, order={"createdAt": "desc"}
-    )
+    # latest_message_id = await prisma.message.find_first(
+    #     where={"conversationId": id, "author": "BOT"}, order={"createdAt": "desc"}
+    # )
 
-    if latest_message_id.id != message_id:
-        _logger.warning(f"Request failed: Message {message_id} is not the latest message")
-        raise HTTPException(status_code=400, detail="Bad Request: Message is not latest")
+    # if latest_message_id.id != message_id:
+    #     _logger.warning(f"Request failed: Message {message_id} is not the latest message")
+    #     raise HTTPException(status_code=400, detail="Bad Request: Message is not latest")
 
-    await prisma.conversation.update(where={"id": id}, data={"status": "IDLE"})
+    # await prisma.conversation.update(where={"id": id}, data={"status": "IDLE"})
     return {"status": "OK"}
 
 
@@ -568,11 +568,11 @@ async def upload_attachment(
         rabbitmq.send(message.SerializeToString())
         _logger.debug(f"Notified through RabbitMQ for file {file.filename}")
 
-    if not await prisma.company.find_unique(where={"id": company_id}):
-        raise HTTPException(400, "Specified company does not exist")
+    # if not await prisma.company.find_unique(where={"id": company_id}):
+    #     raise HTTPException(400, "Specified company does not exist")
 
-    if not await prisma.subsector.find_unique(where={"id": sub_sector_id}):
-        raise HTTPException(400, "Specified subsector does not exist")
+    # if not await prisma.subsector.find_unique(where={"id": sub_sector_id}):
+    #     raise HTTPException(400, "Specified subsector does not exist")
 
     # Upload the file to the cloud storage
     storage = Storage(vars.USER_FILES_BUCKET)
@@ -591,15 +591,15 @@ async def upload_attachment(
                 "conversationId": id,
             }
         )
-        attachment = await prisma.attachment.create(
-            {
-                "documentId": document.id,
-                "companyId": company_id,
-                "subSectorId": sub_sector_id,
-                "year": year,
-            },
-            include={"document": True},
-        )
+        # attachment = await prisma.attachment.create(
+        #     {
+        #         "documentId": document.id,
+        #         "companyId": company_id,
+        #         "subSectorId": sub_sector_id,
+        #         "year": year,
+        #     },
+        #     include={"document": True},
+        # )
     else:
         attachment = await prisma.attachment.find_first(
             where={"document": {"name": file.filename, "conversationId": id}},
@@ -608,7 +608,7 @@ async def upload_attachment(
 
     storage.upload_file_from_memory(data=file_as_bytes, remote_path=remote_file_path)
     _logger.info(f"Uploaded attachment: {file.filename}|{attachment.id} successfully")
-    await prisma.attachment.update(where={"id": attachment.id}, data={"status": "UPLOADED"})
+    # await prisma.attachment.update(where={"id": attachment.id}, data={"status": "UPLOADED"})
 
     # Delete the index from the Conversation Index so that files can stay in sync between GCS and the index
 

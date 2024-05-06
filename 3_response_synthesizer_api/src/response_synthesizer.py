@@ -30,7 +30,7 @@ class ResponseSynthesizer(object):
         callback_handler = OpenInferenceCallbackHandler()
         self.callback_manager = CallbackManager([llama_debug, callback_handler])
         self.embed_model = HuggingFaceEmbedding(model_name=vars.EMBEDDING_MODEL)
-        self.documents = SimpleDirectoryReader(".", required_exts=['.txt']).load_data()
+        self.documents = SimpleDirectoryReader(vars.CUR_DIR, required_exts=['.txt']).load_data()
         self.index = VectorStoreIndex.from_documents(self.documents)
         _logger.info("Response Synthesizer initilized")
 
@@ -47,12 +47,10 @@ class ResponseSynthesizer(object):
         self.summarizer = get_response_synthesizer(
             response_mode="simple_summarize",
             text_qa_template=self.prompt_template,
-            streaming=True,
         )
         
 
         
-        _logger.info(f"Synthesizer setup: {self.params}")
         retriever = VectorIndexRetriever(
             index=self.index,
             similarity_top_k=2,
@@ -67,13 +65,10 @@ class ResponseSynthesizer(object):
         return streamer
     
 
-    def initialize_synthesizer(self, query, qa_pairs, sources, params):
+    def initialize_synthesizer(self, query, qa_pairs):
         self.query_str = query
         self.query = QueryBundle(query_str=query)
-        self.nodes = self._create_nodes(qa_pairs=qa_pairs)
-        self.additional_source_nodes = sources
-        self.params = Config().from_proto(params)
-        _logger.info(f"Request: {query} | {params}")
+        _logger.info(f"Request: {query} ")
 
         return self._create_instance()
 

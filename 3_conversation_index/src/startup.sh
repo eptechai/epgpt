@@ -1,1 +1,0 @@
-bash -c "bash index_deletion_processor.sh &" && bash -c "bash index_processor.sh &" && python -u app.py
