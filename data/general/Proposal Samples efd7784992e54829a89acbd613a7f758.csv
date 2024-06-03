@@ -1,0 +1,1602 @@
+﻿Category,Project link,Job Description,Proposal Submitted,Additional Questions and Answers,Skills & Expertise
+Full Stack Development,https://www.upwork.com/jobs/~012c79677637f74bd8,"We are trying to develop margin/perpetual trading platform.Dev team should have experience with centralized exchange service development.In your proposal, plz list cex services that you developed before.And should included trading volume, and tx speed that order match engine can handle.You will use your order match engine to our project development.We have spec and timeline requirement, but budget will be discussed with selected dev team.","Hi, I see that you’re looking to develop a margin/perpetual trading platform. One thing that really draws me to new projects is the potential or ""level of innovation"" I can find hiding behind requests and requirements. As an Advisor and investor at Game Gym, a CEO at Fitivity Inc., and a CEO at Elete, I've seen it all and have a keen eye for catching innovative projects.
+
+I have a team that is extremely diverse in terms of our skill set, capabilities, and experience across Web3 Development. We have been heavily focused on the Crypto & NFT space and feel like these experiences and expertise will lend themselves well to the development of your project.
+
+As you probably already know, finding GOOD crypto/blockchain/NFT developers right now that are available and not backlogged for months is nearly impossible.We have recently become available and are looking for our next big project. With that being said, we only pick projects that we have a strong affection for, and after reviewing your project description, I honestly believe that this seems like a great fit. I’d like to entertain the idea of building something incredible together.
+
+I strongly encourage you to check out a few recently completed projects that showcase our diverse skills in the blockchain space.
+
+Our capabilities have enabled us to build several blockchain-related products, for instance, mintable.app
+We helped Mintable create one of the first open-sea-esq platforms where you can mint your own NFTs, track important stats in the blockchain world, and even sign up for their DAO.
+
+We also helped Crypto Homes create the first fully functional marketplace to buy and sell homes using cryptocurrency. The website currently does not have live info on it, because the client experienced quite a setback with marketing and getting people to list their houses since the crypto crash. cryptohomes.com/properties
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our in-depth reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere www.valere.io","Describe your recent experience with similar projectsI've included project links and descriptions in our cover letter in addition to attaching a PDF version of our portfolio. Once we learn more about your vision and project details, I'd be happy to demo projects that align more with what you're looking to build. In the meantime, I’d be happy to answer any questions you may have regarding what I’ve shared so far and how it may relate to your project.
+
+lessPlease list any certifications related to this projectI'm proud to say that we've earned an Expert-Vetted Badge from Upwork, which has ranked us among the top 1% of software development talent on the platform
+Ranked by Clutch.co in the Top App Developers and Web Developer in Massachusetts
+We’ve done projects for some big names: Johns Hopkins and Shell
+Past clients have used web and mobile apps developed by Valere to raise over $50 million (USD) in funding.
+Recently published in Upworks Q2 2023 Shareholder Report https://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 please refer to page 5, 6, and 7 to see some of our work. lessInclude a link to your GitHub profile and/or websitewww.valere.io
+
+We don't have one company github. All of our projects, we have our client create the github so all ownership is in their name. We also have over 75 developers, some of them can share their own personal githubs, or screenshare you some current code. After you and I meet, and we decide the best developer for your project - then we can share your developer or project specifics.",Crypto Exchange Platform
+Full Stack Development,https://www.upwork.com/jobs/~01c84a9d7156b877cc,"Hello. I am in the energy industry (solar) and I am looking to develop a system where other solar companies can go and have an AI platform design a whole solar system from start to end. I want it to be able for the white label so we need to be able to work with other companies' APIs like financing and CRM etc...
+Please take a look at http://www.solarquote.com/ and see what I mean. only apply once you understand the project. of course, more information will be provided.","Hi there, I'm glad to have found this AI project. I've been pushing AI in the solar industry and finding someone like yourself who's interested in the topic isn't that easy! So, I'm going to cut straight to the chase. Here's how I'd break down this build:
+
+1. Requirement Analysis:
+Gather detailed requirements through market research and user analysis.
+Define functional specifications, including user roles, data flow, and interaction with external APIs for solar data.
+2. System Architecture:
+Design a microservices architecture to ensure scalability and maintainability or opt for a monolithic architecture for simpler deployment and management, depending on the expected scale.
+Decide on a cloud service provider (e.g., AWS, Azure, GCP) for hosting the application, considering factors like scalability, services offered, and cost.
+3. Front-End Development:
+Choose a modern JavaScript framework or library (e.g., React, Angular, Vue.js) for building a dynamic and responsive user interface.
+Implement state management libraries (e.g., Redux, Vuex) if the application complexity requires it.
+Use CSS frameworks like Bootstrap or Tailwind CSS for styling and to accelerate the development process.
+4. Back-End Development:
+Select a back-end programming language and framework (e.g., Node.js with Express, Python with Django, Ruby on Rails) that aligns with the performance needs and developer expertise.
+Develop RESTful APIs or GraphQL for front-end to back-end communication.
+Implement authentication and authorization mechanisms, such as OAuth 2.0 or JWT, to secure user accounts and data.
+5. Database Design:
+Choose an appropriate database system (e.g., PostgreSQL, MongoDB, MySQL) based on the data structure and access patterns.
+Normalize the database to eliminate redundancy and ensure data integrity.
+Implement proper indexing to optimize query performance.
+6. Quote Calculation Engine:
+Develop a custom algorithm or engine that takes into account various factors like location, energy usage, local solar irradiance data, and financial incentives to generate accurate quotes.
+Integrate with third-party APIs to pull in real-time data for more accurate and dynamic quote generation.
+7. Third-Party Integrations:
+Integrate with CRM systems to manage customer interactions and follow-ups.
+Connect with solar provider databases to fetch real-time pricing and service offerings.
+Use mapping APIs (e.g., Google Maps API) for location-based services and calculations.
+8. Security Measures:
+Implement HTTPS with SSL certificates for secure data transmission.
+Use secure coding practices to protect against common vulnerabilities (e.g., SQL injection, XSS).
+Regularly update dependencies to patch known vulnerabilities.
+9. Testing:
+Write unit and integration tests for both front-end and back-end components.
+Perform load testing to ensure the system can handle high traffic.
+Conduct security audits and penetration testing to identify and fix security issues.
+10. Deployment:
+Set up a CI/CD pipeline using tools like Jenkins, GitLab CI/CD, or GitHub Actions for automated testing and deployment.
+Use containerization with Docker and orchestration with Kubernetes if the application's complexity and scale warrant it.
+Monitor the application using tools like Prometheus, Grafana, or ELK stack for logging and performance metrics.
+11. User Analytics and SEO:
+Implement analytics tracking with tools like Google Analytics for user behavior analysis.
+Optimize the platform for search engines, ensuring proper meta tags, sitemaps, and robot.txt files are in place.
+
+11 easy steps to make your dream come true. Did you think it would be more difficult? I'd caution you from believing just anyone's ""AI skills"". See if you can find someone here in this link https://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 it's not that long, but if you start on page 5 you'll see an Upwork named AI expert.
+
+Valere is an expert-vetted software development team with extensive experience crafting revolutionary AI and machine learning solutions and a clear understanding of the intricate dance between technology and business goals.
+
+Beyond our portfolio, what sets us apart is our commitment. We genuinely care about ensuring that your venture thrives.
+
+Our Projects:
+
+Athes: http://athes.io/
+PredictionHealth: http://predictionhealth.com/
+Datalux: http://datalux.com/
+Hopps: http://hopps.io/
+Genesis Research: http://genesisrg.com/
+
+Our expertise in Agile methodologies aligns us with your priorities, ensuring a transparent and efficient workflow. We not only translate project requirements into technical specifications but also value the collaboration that's instrumental to success.
+
+Portfolio: http://drive.google.com/file/d/1s_o5l9opR1bDmjqONdYtcL0bWhmHlw0F/view?usp=sharing
+
+Clutch Reviews: http://clutch.co/profile/valere-labs
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/",,AI Agent Development ai map AI ConsultingAI Content Creation Graphic Design Artificial Intelligence
+Full Stack Development,https://www.upwork.com/jobs/~01746acd77fad20a06,We are looking for US based unreal engine 5 expert for help with client projects! You must have at least 3 years experience with unreal engine and able to sign a team NDA. Please link previous work samples/info to be considered for this position!,"Hi, I'd be happy to sign the NDA and get the conversation rolling to see if we would be a good fit to help you get your client's project across the finish line. We have a team of passionate designers and well-vetted developers specialized in developing games for iOS and Android mobile platforms. We have an office that specializes in Unity Technologies, AR/VR, and the Metaverse.We use Agile and Scrum Frameworks on complex projects to better manage and structure our workload while simultaneously ensuring that our clients are able to periodically inspect our progress from design to deployment.
+
+I’m excited to showcase the breadth of our work so you could envision what is possible if you decide to work with our team:
+
+https://eletebasketball.com/
+A venture-backed company, Elete became the most addictive and advanced app to develop ball-handling skills. Powered by Artificial Intelligence and Augmented Reality, it uses your device's camera to track the ball as users build basketball skills in a gamified way. We used Computer Vision and Machine Learning to make improving your basketball skills fun!
+We also helped them build their e-commerce store that contributed to the company reaching $1M in sales.
+
+Using ARCore, users can engage with content shown simultaneously on two or more different devices. https://youtu.be/7ujhKDoOVrU
+
+3D PADDLE GAME WITH SUMMER PRODUCTS – SODIMAC PERU: through virtual reality lenses, users participate in a tropical rowing experience designed to have them reach an island through real physical effort. As they progress through the experience they come across advertised summer products and native coastal animals such as seagulls, dolphins and whales.
+https://youtu.be/0Tpy7w8coUM
+
+
+OLD TRAFFORD MANCHESTER UNITED – CHIVAS REGAL: is a 360 immersive advertising experience at the point of sale where users are presented with a 3D visit to Manchester United's Old Trafford stadium. There, they are informed that through the purchase of their product they will be entered into a raffle to win a meet and greet with one of their favorite players.
+https://youtu.be/EeT154GU5GM
+
+SHOW LOONEY TUNES: Animated Looney Tunes’ characters pose for a photo with participants in a toilet paper marketing event.
+https://youtu.be/LDtSAWQrrSQ
+
+COLORING APP TALENTOLANDIA - ARTESCO is an application for children where you print and color your favorite monsters, then bring them to life in 3D through the use of an app. The app is able to detect the colors used to fill in the monster and uses that information to generate its 3D replica.
+https://youtu.be/gS4P4ei_XZ4
+
+COMMERCIAL MATERIAL APP – ONCOSALUD is a mobile app that is used as an educational tool for the Oncosalud Clinicuses. With the help of 3D animations and “Holograms” of their doctors, they are able to deliver multimodal educational content, proven to be more effective over traditional teaching methods.
+https://youtu.be/b95PGQXZ5LI
+
+APP MERCHANDISING AR – Magic Cubes is a mobile app developed for the annual augmented reality convention AWE in Silicon Valley. Magic cubes were distributed to guests at the main entrance. Users were granted access to 4 animated characters that had Pokemon-like powers. Users could engage their characters in battle by combining it with an opponent's cube.
+https://youtu.be/zAMfIpFxXVQhttps://youtu.be/_lLwGeFLHUc
+
+CAR DEALER – FORD ARGENTINA: Immersive sales tool to help potential buyers visualize their chosen 3D car, showing the different characteristics and details of the bodywork and real interior view.
+https://www.youtube.com/watch?v=ay-soK4mAUg
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links, and visuals.
+https://drive.google.com/file/d/1m1MwrCODJnk2pFE289psoX0yy_tUMuM2/view?usp=sharing
+
+Here’s what our recent clients had to say about us:
+""Working with the Valere team felt like my co-founder and I were working with a development team of our own.""
+""We feel that our vision really came to reality and that we are ready to hit the ground running.""
+""From our initial conversation to the past 6–8 months, we’ve established a common culture, vibe, and language.""
+
+For more, please check out our reviews at https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy",,https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628021080071unreal engine 5
+Full Stack Development,https://www.upwork.com/jobs/~0179c65b88ba791a84,"Full stack development.
+We are Riad Invest, a start-up specializing in fractional real estate investment in luxury Riads in Marrakeck. Our customers can buy a fraction of a property and enjoy monthly rental returns in proportion to their investment. Our current website is hosted on Shopify, but we are looking to transition to Webflow with a complete new design.
+We are aiming to integrate an Web application layer (customer should be able to connect their Dashboard with online their own wallet, check their properties investment).
+Requirements:
+-User Authentication: Users must be able to register and log in to their account
+-Document Upload: Users should have the capability to upload identity verification documents such as ID, driver's license, or passport (KYC)
+-Payment Options: Implement payment methods such as credit card and wire bank transfer direct debit to allow users to charge their accounts in order to suscribe to bonds.
+-Contract Signing: Users should be able to digitally sign bond contracts online.
+- Users should be able to digitally sign bond contracts online.
+- He permanently have access to this document
+-Electronic Signature.
+- Dashboard for each customer needed
+- Property Subscription:
+- On the property page, when a property is in the process of being funded, clients should be able to subscribe to the property.
+- They can purchase one or more ""bond"" of 50 euros using the balance in their wallet.
+- After selecting the number of ""bhond,"" the client must digitally sign the bond loan agreement.
+- Monthly Profits Distribution:
+- Profits will be distributed monthly.
+- The gains should be prorated according to the amount invested
+and should be deposited into the client's wallet in ""Euro""
+- Client can withdraw the fund gained
+-Design:
+For design guidelines, you can refer to our Figma.
+We are open to fresh design ideas but the overall theme should be consistent.
+Functionality:
+The platform’s features should be similar to those of our competitors:
+Meute Invest : (link removed)
+Bloks : (link removed)
+Tantiem : (link removed)
+Bricks : http://www.bricks.co/
+Skills Required:
+Strong experience with Webflow (front end)
+Experience on Bubble, react, node js (back end)
+Experience with web application
+Payment gateway integration
+User authentication and data security
+Previous experience with real estate platforms is a plus
+If you think you’re a good fit for this project, we would love to hear from you","Hi, I love the Real Estate space and get excited when I come across innovative real estate technology or people looking to create complex CRMs or Zillow-like platforms. I’m very interested in learning more about your project. I'm a package deal if you decide to work with me. When you work with me, I supply you with front-end and back-end developers, UX and UI designers, project managers, account managers, and quality assurance experts. This collective expertise ensures that every aspect of your project is handled by a specialist, resulting in a higher-quality end product.
+
+I've spent 10+ years creating award-winning software that is fast, attractive, responsive, and easy to use. I have thousands of hours logged on UpWork with a 100% success score, and I'm Top Rated Plus (Top 3% of ALL Upwork!). My work has been featured by Apple, Google, TechRadar, and the New York Times! In 2009, I started the largest mobile fitness app at the time called Fitivity, which achieved over 15 million downloads and raised $1.5 million.
+
+After Fitivity, I worked with in-house developers, off-shore freelancers, and agencies. I saw what worked and what didn't. I dealt with all kinds of developers who just wanted my money and didn't care about my product.
+
+The process was broken. After 2 successful exits, I decided to re-invest and fix the process. That is what led me to create Valere Labs (http://www.valere.io/) with the fundamental thesis to use my experience developing high-quality software to help others 1) Do it Right, 2) Do it Efficiently, and 3) Do it Ethically.
+
+Check out these platforms we’ve recently built in this space:
+
+DwellOptimal provides an alternative to the hotel experience by providing secure real estate solutions for corporate extended-stay travel. We helped them create an integrated software platform for managing utilization, controlling unit environments remotely and allowing employees to tailor elements of their live|work spaces.
+http://cryptohomes.com/
+
+We helped Crypto Homes create the first fully functional marketplace to buy and sell homes using cryptocurrency.
+http://cryptohomes.com/
+
+BPO Xpress contracts photography out to local drivers. Use your cell phone, your car, and a few minutes of your spare time to make as much as $70/hr completing exterior photography on vacant homes, investment properties, and apartment buildings from the exterior for banks, insurance companies, and other institutional investors.
+http://apps.apple.com/us/app/home-appraisal/id1643929698http://play.google.com/store/apps/details?id=com.homeappraisal
+
+KOVA ENVIRONMENT CONFIGURATOR: 3D web platform where users can change kitchen and bathroom environments with products offered by the brand such as floors, cabinets, quartz, etc. After choosing the products, a form is sent where the supplier receives the information selected by the client to generate a quote and start a conversation.
+http://simply3d.co/demos/kova_2
+
+We created a platform that supplies brokerages and agents with marketing tools. They provide quality content that's current, fresh and relevant for social media and/or farming. They have a vast supply of Canva templates for users to choose from.
+http://reasymarket.com/
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+http://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our in-depth reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/",,Full Stack Development Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580737240190976https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836451865444352Full Stack Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762999021568https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162208982421516https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795211276288https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795181916160https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745110315008https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626728794472448https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580728344072192wized
+Full Stack Development,https://www.upwork.com/jobs/~019c7d307d24dfed44,"About Us:
+Safe Access was created amidst the challenges of COVID-19 with a singular mission: to help businesses reopen and stay open safely. You'll be part of a driven team that’s overseen 2 million+ check-ins and over 200,000 users driven by completely organic growth with exciting clients in international sports, Hollywood production, and multibillion-dollar investment banking.
+Today, we're on a journey to ensure companies continue to operate safely by evolving into an AI-driven insurance compliance startup, staying at the forefront of leveraging automation to meet emerging risk management demands in entertainment and real estate.
+The Opportunity:
+We're on the brink of a pivotal moment of filling a new, much needed gap in multiple industries. To achieve this, we're seeking a passionate Full Stack Engineer who's ready to bring their expertise and enthusiasm to our hardworking team.
+What You’ll do:
+Please apply ONLY if you've have extensive experience in B2B SaaS software development.
+As full-stack developer, you will be responsible for ensuring the successful delivery of the SafeAccess Compliance Management application (Django backend & React frontend).
+-Full-stack Development: Lead the design, development, and deployment of the SafeAccess Compliance Management application with a Django backend and React frontend. Collaborate closely with other developers for seamless integration.
+-Technical Leadership: Drive architectural decisions to ensure the application's scalability, performance, and maintainability. Evaluate and integrate new tools and frameworks to boost efficiency.
+-API & Integration: Work with software partners for seamless API integration, ensuring data security and integrity.
+-Team & Quality Management: Work with one back-end developer, enforce coding standards, and conduct regular code reviews to maintain high-quality code.
+What We’re Looking For:
+-Full-stack Expertise: Solid experience with Django backend and React frontend development. ---Proficiency in RESTful APIs, database design, and Azure.
+-Web Technologies: Mastery in HTML, CSS, JavaScript, Python, and the Django framework.
+-Architecture & Design: Proven ability to design scalable application architectures, with knowledge of best practices in both frontend and backend.
+-Leadership & Collaboration: Proactive problem solver, takes initiative, adept at team collaboration, and effective technical communication.
+Minimum Requirements:
+-Preference for being located in the US, other countries with below time zones considered
+-Fluent in English: Non-negotiable, our application has a Natural Language Processing aspect for legal documents so this is a critical requirement
+-Availability during business hours (open to EST, MST, CST, or PST)
+-Minimum 10-15+ hours a week commitment with the potential of scaling to 20+ hours
+Why Work with Safe Access?
+-Impactful Work: Play a key role in reshaping how small businesses can stay protected and land contracts.
+-Inclusive Team: We pride ourselves on our supportive and easy-to-work-with team culture.
+-Growth Opportunities: As we pivot and grow, so will your opportunities to contribute.
+If you're ready to contribute to an industry-leading team and make an impact on the future of small businesses, we’d love to hear from you.","Hazel, not only did I find your commitment to creating solutions that help businesses navigate the challenges brought about by COVID-19 inspiring, but I was blown away by your impressive track record of 2 million+ check-ins and over 200,000 users, all driven by organic growth. It undoubtedly speaks volumes about the relevance and impact of your work in industries as diverse as international sports, Hollywood production, and investment banking. Honestly speaking, I only pick projects that I have a strong affection for, and after reviewing your project description, I truly believe that this seems like a great fit. I’d like to entertain the idea of building something incredible together.
+
+Now, let me assure you that at Valere, we have mastery over the skillsets necessary to ensure your exciting venture is a success. We have a proven track record of delivering exceptional software solutions, particularly in B2B SaaS software development, which aligns perfectly with your requirements. Our technical skills, processes and experience, combined with our expertise Django backend and React frontend development, RESTful APIs, database design, and Azure, makes us the perfect fit for your team.
+
+The reason you should choose Valere over our competitors is simple but compelling – we genuinely care about your success. We view our partnership as a long-term commitment to supporting you in reshaping how small businesses can stay protected and land contracts. Our passion, dedication, and technical excellence will be instrumental in driving the innovation you seek. We have experience seamlessly augmenting existing teams like Shell and Mars Inc. , the 4th largest private company.
+
+As you explore your options, consider this: I have invested thousands of hours honing my craft on Upwork, boasting an impeccable track record with a 100% success score. Not only that, but I am also extremely proud of the fact that my team and I have earned the esteemed Expert-Vetted Badge from Upwork, a distinction that places us within the top 1% of software development talent on the platform. I can’t tell you how many clients have come to us looking help after their freelancer randomly jumped ship or delivered poor quality code that made it impossible for them to scale. The thing is, freelancers can be a single point of failure. If they become unavailable or face a personal issue, your project could stall. We would midigate that risk as there are backup resources and a project manager to ensure continuity. While a single freelancer might cut corners on testing due to time or resource constraints, we have a dedicated quality assurance team.
+
+Our commitment to impactful work, our inclusive team culture, and the growth opportunities we offer align perfectly with the qualities you value. We are ready to make an enduring impact on the future of small businesses together.
+
+Thank you again for the invitation to check out your project and considering us as your partners in this journey. I eagerly await the opportunity to discuss how Valere can contribute to the success of Safe Access. Would you be available to meet next week?
+
+Guy Pistone CEO & Founder - Valere
+http://www.valere.io/
+
+P.S
+Here are a few Saas projects we have recently built:
+https://youtu.be/TN4PuT44iyMhttps://apps.apple.com/us/app/driver-bee-line/id1561030503
+After working with Valere, Bee Line rolled out the entire platform to their employees, manufacturers, and inventory centers to streamline all of their processes. To date the platform has processed over 75,000 end-to-end transactions – cutting Bee Lines costs significantly. We are integrating AI into their V2. They were featured by Upwork for their incredible growth and success after launching their platform
+Case study: https://drive.google.com/file/d/1B7jzvMsIZ83IhCal4ryKAZtqWZSatRb9/view?usp=sharinghttps://youtu.be/wh-OghDyFgs We created College Fairs USA, a scalable web application that connects high school students and schools through virtual college fairs. It provides recruiters a chance to connect with and recruit top prospective students through private one-on-one chats and group discussions.They can share event reporting and data on all students, including transcripts of discussions that were had. Schools are able to showcase their college/university through fully branded and customized booth, including displays for digital content, brochures, personalized account support, and more. http://virtualcollegefairsusa.com/
+
+With Krystallize users can save, organize and share links, media, documents, and email in one application. https://apps.apple.com/us/app/krystallize/id6449075628
+
+Here's a glimpse at some of our AI work:
+Athes: http://athes.io/
+Elete: http://eletebasketball.com/
+PredictionHealth: http://predictionhealth.com/
+Datalux: http://datalux.com/
+Hopps: http://hopps.io/
+Genesis Research: http://genesisrg.com/
+
+I'll also attach our AI portfolio as a reference
+
+Hope to hear from you soon.",,Full Stack Development Languageshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745110315008Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274386https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580482322976768azure serviceshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626732309299200https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580737240190976https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580682663907328https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274383
+Mobile App Development,https://www.upwork.com/jobs/~01f9e27c7c8970afca,"I have been working on a start-up for a Social Networking Fitness App for the last five years. I had a build proposal offered for both IOS and Andriod however it is quite out of my budget. I am looking for someone to build my phone app MVP for both IOS and Android.
+I have my business plan, pitch deck, and splash screens ready. I need a product to show friends family and potential investors. If you have built a fitness app before and/or dating app please reach out and share your portfolio! Need offers. Thank you.","Carlos, I appreciate the invite, especially because when it comes to fitness apps and dating-like apps, we SHINE!! I founded and led Fitivity, which became one of the largest mobile app health and fitness brands with over 15 million downloads and $1.5 million in venture capital funding. We have the in-depth experience needed to create engaging fitness applications.
+
+Social media apps have been one of our core strengths. We've mastered the art of efficiently managing data transfer between servers and the front end, ensuring that your app will be both scalable and performant. Our architecture is designed for scale and robustness.
+
+Our work has been recognized and featured by industry leaders like Apple, Google, TechRadar, and The New York Times, which speaks to the quality of our work and our commitment to excellence.
+
+We share your passion for improving people's health and well-being through innovative technology. We believe in delivering value and building businesses that matter. We would love to discuss your project in more detail, understand your specific requirements, and tailor our approach to your vision.
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our in-depth reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere Labs http://www.valere.io/","Describe your recent experience with similar projectsFitness/wellness:
+Athes is a sports application that uses AI to edit and optimize sports content in categories such as training, conditioning, and biographies to create an engaging learning experience for athletes. : https://apps.apple.com/us/app/athesai/id6451111993
+
+Elete Basketball: An addictive app for advanced ball-handling skills, using AI and AR with a smart basketball. Learn more at https://eletebasketball.com/
+
+V1 Golf: Empowers golfers with swing analysis and instruction tools. Available on iOS and Android.https://apps.apple.com/us/app/v1-golf/id349715369
+
+Game Gym: The ultimate platform for esports workouts and coaching. Check it out on iOS and Android.https://apps.apple.com/us/app/game-gym/id1666706777?platform=iphone
+https://play.google.com/store/apps/details?id=valere.com.game_gym_app
+
+
+Sukhi Workplace Well-being: An app for mental health workshops and tools. Find it on iOS and Android.
+https://apps.apple.com/in/app/sukhi-workplace-well-being/id1585123698
+https://play.google.com/store/apps/details?id=com.sukhi.app Case study: https://drive.google.com/file/d/1BRqG7PGxSO4VrUm_IO_rTGmMTt1gpRpO/view?usp=sharing
+
+
+Goalie Coaches: A training app for hockey goalies with drills and coaching. Available on iOS and Android. https://apps.apple.com/in/app/goalie-coaches/id1555334353
+https://play.google.com/store/apps/details?id=com.app.goalie_coaches
+
+
+Lift Off Health & Wellness: Gamified workout experience. Discover more at iOS.
+https://apps.apple.com/us/app/lift-off-health-wellness/id1587121707
+
+Dating:
+
+https://www.youtube.com/watch?v=_6UCG2Z8hXE
+Vyve reached over 100k users and received tons of great press like Cosmopolitan, Elite Daily, and was featured on E-News. It was eventually sold.
+
+
+https://apps.apple.com/in/app/grownups-dating-30/id1596440775
+Grownups includes some unique features designed to alleviate the major pain points commonly experienced on dating apps, with the goal of making Grownups the most likable dating app experience possible.
+
+https://fetchadate.com/
+It's a spin on dating apps. Users can find love or friend with other pet lovers.
+
+
+https://apps.apple.com/tt/app/totem-concert-sharing/id1594315535
+https://play.google.com/store/apps/details?id=com.totemapp&hl=en_US&gl=US
+We helped Totem build the ultimate social media and matching platform tailored for concert goers. Totem has several features you would find on apps like Instagram or Snapchat (Stories, Going Live, etc..), however, they also added more emphasis on matchmaking so you can find your next concert buddies, start chatting, and possibly even have your next date at a concert!
+
+lessPlease list any certifications related to this projectI'm proud to say that we've earned an Expert-Vetted Badge from Upwork, which has ranked us among the top 1% of software development talent on the platform
+Ranked by Clutch.co in the Top App Developers and Web Developer in Massachusetts
+We’ve done projects for some big names: Johns Hopkins and Shell
+Past clients have used web and mobile apps developed by Valere to raise over $50 million (USD) in funding.
+Recently published in Upworks Q2 2023 Shareholder Report https://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 please refer to page 5, 6, and 7 to see some of our work.
+less",https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274377https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274376https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108550https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626760125923328https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712726093824https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885776https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885783https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885778https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885780https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885777
+Full Stack Development,https://www.upwork.com/jobs/~01a1197a0e306fad25,"Web and App Developer:
+We are looking for experienced developers for these projects with a timeline of 3 months. The ideal candidate should have experience with the following technologies and skills:
+* JavaScript
+* Vue.js
+* Bootstrap
+* CSS
+* SASS
+* Git
+* Creating localized interfaces with Vue.js and Bootstrap for multiple languages
+* Advanced knowledge of SASS and CSS
+* Proficiency in using design patterns
+* Strong UI/UX and interactivity design skills
+* Graphics design experience (a plus)
+* Familiarity with Scrum methodology (a plus)
+* Jenkins knowledge (a plus)
+* Experience with continuous integration
+* GIT source control
+* Flutter and Dart
+* Building multi-platform apps with Flutter and Dart (at least 2 years of experience)
+* Creating localized interfaces with Dart and Flutter for multiple languages
+* API knowledge, including OAuth
+* Writing unit tests
+* Creating artifacts and deploying to a pipeline
+* Deploying apps to Google Play Store and Apple App Store
+Experience with edtech platforms
+Experience building social/community based platforms
+The UX goal for both projects is to simplify highly technical topics into beautiful, intuitive, and functional interfaces.","Hey there, you can rely on 2 of my freelancers here at my agency for this job. We have tons of experience building social network platforms and we partner with some of the best in the EdTech industry. We are currently working on a HUGE project that helps US students boost their SAT scores. Users take gamified lessons, get matched with tutors, and build a custom curriculum per each student's personal preferences (based on college/university they want to get into).
+
+I personally created Elete, (http://eletebasketball.com/) a venture-backed company.
+
+Elete became the most addictive and advanced app to develop ball-handling skills through gamification as a learning tool. Powered by Artificial Intelligence and Augmented Reality, your app links up with a smart basketball. It uses your device's camera to track the ball, and you can complete challenges, move up the leaderboards, and help build your basketball skills in a gamified way. We used Computer Vision and Machine Learning to make improving your basketball skills fun!
+
+You can try to find 2 random freelancers that might work well together, or, you can hire a team that you know will work well together and be able to meet this tight deadline of 3 months. When you work with us we supply you with front-end and back-end developers, UX and UI designers, project managers, account managers, and quality assurance experts. This collective expertise ensures that every aspect of your project is handled by a specialist, resulting in a higher quality end product.
+
+Check out this array of examples and let me know if this is the quality you are looking for:
+
+http://hitmeapp.com/
+HitMeApp is a mobile iOS app that is uniquely positioned at the intersection of gaming and social media and enables the average Gen Z user to attain influence and achieve peer popularity without showing skin or spending millions
+
+http://apps.apple.com/us/app/athesai/id6451111993
+Athes is a sports application that uses AI to edit and optimize sports content in categories such as training, conditioning, and biographies to create an engaging learning experience for athletes.
+
+http://apps.apple.com/us/app/trecco-your-travel-community/id1501824385
+Trecco is a social travel recommendation platform where users can share, discover and engage in real-time with their friends.
+
+http://youtu.be/wh-OghDyFgs College Fairs USA is a scalable web application that connects high school students and schools through virtual college fairs.
+
+http://apps.apple.com/in/app/accesslife/id1578739636
+ACCESSk12 is a community-wide coordinated, cutting edge, cloud based ecosystem designed to open the door of opportunity and career pathway for each student by strengthening each student’s ability to succeed in the 21st Century.
+
+http://nurturebynaps.com/
+Nurture By Naps has carefully curated a lineup of services, support groups and virtual classes that anticipate all the questions and needs of parents.
+
+http://play.google.com/store/apps/details?id=co.gogaba.app&hl=en_US&gl=US
+GABA helps learners unlock career pathways as they engage with curated social media content, build a professional network, and track their career progress using easy to read analytics and metrics.
+
+http://apps.apple.com/us/app/mandarin-show/id1509689319
+We helped create a fun and new way to learn Mandarin by using entertaining videos instead of boring language learning practices! After launch, this founder was able to raise seed capital.
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/","Include a link to your GitHub profile and/or websitewww.valere.io
+
+We don't have one company github. All of our projects, we have our client create the github so all ownership is in their name. We also have over 75 developers, some of them can share their own personal githubs, or screenshare you some current code. After you and I meet, and we decide the best developer for your project - then we can share your developer or project specifics.",Full Stack Development Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580737240190976https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626731394940928https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580482566246400Full Stack Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794477273088https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626720951123968https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626751103975424Full Stack Development Languageshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626777683279872https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626729448783872Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274377https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626749656940544https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626760125923328https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712726093824https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885778https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580727031255040https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885773https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626763590418432https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626778274676736git source
+Machine Learning,https://www.upwork.com/jobs/~011f611dca75c15653,"Are you an AI ChatBot specialist with a proven track record of implementing chatbots that drive lead generation? Do you have experience in the travel and tourism industry? If so, we'd love to hear from you! We are a reputable charter boat company located in the stunning Cayman Islands, and we're seeking an experienced AI ChatBot expert to consult with us on setting up a chatbot that will help us generate leads and enhance customer engagement.
+Responsibilities:
+- Consult with our team to understand our specific needs and goals.
+- Design a chatbot tailored to our charter boat company's requirements.
+Implement the chatbot on our website and integrate it seamlessly with our CRM system.
+- Configure the chatbot to answer frequently asked questions, provide information about our services, and collect lead information.
+- Optimize the chatbot's conversational flow and responses based on user interactions.
+- Provide guidance on best practices for utilizing the chatbot to maximize lead generation.
+- Train our team to manage and maintain the chatbot effectively.
+Qualifications:
+- Proven experience in designing and implementing chatbots, specifically for lead generation and customer engagement.
+- Expertise in AI and Natural Language Processing (NLP).
+- Familiarity with chatbot platforms and tools, including popular frameworks like Dialogflow, Watson Assistant, or similar.
+- Knowledge of the travel and tourism industry is a plus.
+- Strong problem-solving skills and attention to detail.
+- Excellent communication and collaboration skills","Hi Michael, will this be your first AI adoption into your company's processes? I'm excited you've decided to start taking advantage of this part as well. I've been championing that the company's who opt for early AI adoption are going to be the companies we see succeeding in the future.
+
+I'm Guy Pistone, CEO and Founder of Valere. I know what you're thinking... Sounds like an agency and I want an individual! Well, while freelancers can be a cost-effective option for simple projects, a whole team approach offers numerous advantages in terms of expertise, efficiency, quality, and support. It's a strategic choice that can make a significant difference in the success of your project, ensuring that it meets or exceeds your expectations.
+
+Don't let your dream project fall into the wrong hands, only to be met with subpar execution and avoidable errors which would cost you more money in the long run.
+
+Choosing an experienced AI partner is not just about avoiding pitfalls – it's about ensuring that every step aligns seamlessly with your objectives, saving you costly mistakes. I'd caution you from believing just anyone's ""AI skills"". See if you can find someone here in this link https://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 it's not that long, but if you start on page 5 you'll see an Upwork named AI expert.
+
+Valere is an expert vetted software development team with extensive experience crafting revolutionary AI and machine learning solutions and a clear understanding of the intricate dance between technology and business goals.
+
+We don't just build; we envision. Our team's experience ranges from AI-driven sports applications like Athes, which optimizes content for athlete engagement, to groundbreaking apps like Elete that gamify skill development using AI and Augmented Reality.
+
+We've tasted success in areas of AI in real-world applications. We've worked on projects like PredictionHealth, infusing AI into therapy notes, and Datalux, an automation tool for financial reconciliation, in addition to working with MARs through Antech. Mars is the 4th largest private company, building an AI application to optimize scheduling of surgeries.
+
+Beyond our portfolio, what sets us apart is our commitment. We genuinely care about ensuring that your venture thrives.
+
+Our Projects:
+Athes: http://athes.io/
+Elete: http://eletebasketball.com/
+PredictionHealth: http://predictionhealth.com/
+Datalux: http://datalux.com/
+Hopps: http://hopps.io/
+Genesis Research: http://genesisrg.com/
+
+Our expertise in Agile methodologies aligns us with your priorities, ensuring a transparent and efficient workflow. We not only translate project requirements into technical specifications but also value the collaboration that's instrumental to success.
+
+For a better understanding of our work and delivery standards, please take a look at our portfolio here:
+http://drive.google.com/file/d/1s_o5l9opR1bDmjqONdYtcL0bWhmHlw0F/view?usp=sharing
+
+Also, please check out our in-depth reviews and analysis on the leading B2B review site, Clutch: https://clutch.co/profile/valere-labs
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/
+
+P.S 𝐍𝐄𝐖 𝐔𝐏𝐃𝐀𝐓𝐄: Dive into the Latest Upwork Article - Unveiling the AI Revolution at Valere
+https://www.upwork.com/success-stories/using-ai-at-valere-labs",,Machine Learning Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1253342869935763456https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626730384113664https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1253342887048523776https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1253342885165281280Machine Learning Methodshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626730904207360Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626753582809088
+Full Stack Development,https://www.upwork.com/jobs/~0163202f7194761d01,"We are looking for a highly qualified software developer with specific expertise in artificial intelligence to contribute to creating customized software solutions for high-income families in Italy. The ideal candidate should have a deep understanding of implementing AI-based features for financial data analysis and complex task automation.
+Key Requirements:
+AI Expertise: The candidate should be an expert in AI-based software development and have a track record of success in related projects.
+Financial Markets Knowledge: They must have a solid understanding of financial markets and the needs of high-income families, including wealth management, financial planning, and data security.
+Programming Skills: Experience in programming with languages such as Python, Java, or C++ for implementing AI algorithms and solutions.
+Data Security: Knowledge of best data security practices to protect sensitive financial information of clients.
+Key Responsibilities:
+Collaborate with the team to define and develop AI-based custom software solutions for high-income families.
+Create machine learning algorithms and models for financial data analysis, forecasting, and risk management.
+Automate complex processes to simplify wealth management and financial planning.
+Ensure the security of clients' financial data through data protection and encryption.
+Working Conditions:
+This project requires remote and flexible collaboration.
+Full-time or part-time commitment will be discussed with the selected candidate.
+The project duration will be detailed during the discussions.
+Periodic meetings or virtual communications with the team may be required.
+How to Apply:
+If you believe you have the skills and experience required for this project, please submit your application. Include in your message a brief description of your past experience in implementing AI-based solutions for the financial sector and any relevant projects you have completed in the past.
+We look forward to collaborating with an expert who can help improve the financial management of high-income families in Italy through cutting-edge software solutions.
+Thank you for your attention, and we look forward to receiving your applications.","Hi there, choosing an experienced AI partner is not just about avoiding pitfalls – it's about ensuring that every step aligns seamlessly with your objectives, saving you costly mistakes. I'd caution you from believing just anyone's ""AI skills"". See if you can find someone here in this link https://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 it's not that long, but if you start on page 5 you'll see an Upwork named AI expert.
+
+Valere is an expert vetted software development team with extensive experience crafting revolutionary AI and machine learning solutions and a clear understanding of the intricate dance between technology and business goals.
+
+We don't just build; we envision. Various projects we've done in the FinTech sector below include or will include the use of Artificial Intelligence.
+
+https://grothapp.com/https://apps.apple.com/us/app/gr%C3%B4th-virtual-money-mentor/id1627286829https://play.google.com/store/apps/details?id=com.grothapp.groth&pli=1
+We recently built a fin-tech app to help users budget and plan their future for financial success. Groth allows users to manage their cash flow all in one place and be able to see their previous, current, and future at a glance and easily create and achieve financial goals through customized solutions. We used Plaid API. We’ll be integrating AI in v2.
+
+https://apps.apple.com/us/app/epoch-financial/id1627059613 Financial Freedom is an app designed to help users take control over their Personal Finance and start managing their money to achieve financial stability in life.
+
+https://www.penny-finance.com/ Penny finance is the first personalized tech-powered financial mentor for women who don’t have access to a financial advisor and crave easy, digestible financial education and know-how to increase cash flow today and retire with wealth tomorrow.
+
+https://www.datalux.com/
+Datalux is a time-saving tool that automates manual reconciliation and reporting tasks for users. It is specifically designed to handle omni-channel multiple marketplaces and can seamlessly integrate with various financial statements from multiple banks, payment providers, and processors.
+
+https://apps.apple.com/us/app/vivaria-budget/id1667816506
+Vivaria’s budget app allows users to take control of debts with customizable payoff strategies, enjoy unlimited budgeting categories for flexible expense management and helps users break free from paycheck to paycheck living with insights, bill management, and more.
+
+We also have experience working with live stock/commodity prices. We built this site: https://www.polymermis.com/
+PolyMermis provides real time updates and valuable news tips to make educated financial decisions. Please note that we didn’t create the designs here.
+
+To view some of our projects, please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step I’d like to get on a call to learn more.
+
+Thank you for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/
+
+P.S 𝐍𝐄𝐖 𝐔𝐏𝐃𝐀𝐓𝐄: Dive into the Latest Upwork Article - Unveiling the AI Revolution at Valere
+https://www.upwork.com/success-stories/using-ai-at-valere-labs",,Business Sizehttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836481842135040Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626716094119936https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274386https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274382https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626755474440192
+Mobile App Development,https://www.upwork.com/jobs/~01cd0f6239679f2a10,"We need an iOS App built, perhaps using the new AI tools Apple has to offer, so an iPhone can take pictures of items every 1-3 seconds as they roll down the conveyor.
+The pictures need to be high quality and subject to no motion blur. Pictures need to be cropped and rotated and saved to Google Drive or Dropbox for example.","Crafting an application that leverages Apple's cutting-edge AI tools to capture high-quality, motion-blur-free images of conveyor-bound items is precisely the kind of challenge that excites us.
+
+At Valere, our experienced team of iOS developers are brilliant when it comes to harnessing the power of Apple's AI capabilities to create seamless and efficient applications. We understand the importance of delivering crisp, perfectly-cropped, and correctly-rotated images.
+Here's a glimpse of some of our work:
+https://www.youtube.com/watch?v=n8BTqnnBM1Ehttps://apps.apple.com/us/app/home-appraisal/id1643929698
+
+Also, our proficiency in integrating cloud storage solutions like Google Drive or Dropbox will ensure that your captured images are conveniently and securely saved.
+
+With us by your side, this project will not only meet but exceed your expectations. I'm excited about the possibility of embarking on this journey and transforming your vision into a tangible, state-of-the-art iOS application. Let's chat!
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our in-depth reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere Labs http://www.valere.io/",,https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274377https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885782https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626749656940544https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626760125923328
+Deep Learning,https://www.upwork.com/jobs/~014e7290223c461f54,"I get a list of FMCSA-registered commercial truck and bus drivers each month. There are a total of 1,500,000 Owner-Operators. Half of them or 750,000 have to file a renewal each year or Biennially or they are put out of service for 2-3 days and also can be but rarely are fined up to $1,000 per day. But the potential of the fine does serve as a good motivator to get them filed. I solicit these drivers with emails and outbound calls to file the forms for them. 97% of them do not know how or do not want to file the forms themselves so, they link up with me or someone like me and pay a fee to get it filed for them. So I take the data from the FMCSA, split it, and then pick out the contacts to email and call by the last two digits of their DOT number. I need a CRM to control everything. The CRM does not have to be very sophisticated at this point but it eventually needs to be a platform that can eventually interface with other third-party programs. I currently have a website that will suffice, but I want to improve it. I have e-commerce through Stripe, but it is now linked to my current CRM which will be replaced. So I need to coordinate with Stripe to change it. I have very limited capital but would be willing to get up some equity in the company. It is an LLC so income flows through. You would always have income from it as long as it is operational or until it is sold. If it is sold then you get a piece if the sales, based on your equity position But if I gave up Equity I would really want someone strong who could help me build this thing.","Ronnie, I appreciate your open and candid description of your business and the challenges you're facing. Impressed by your dedication to ensuring compliance and your recognition of the potential consequences. My team and I at Valere, have an unparalleled level of experience when it comes to crafting CRM systems designed exclusively to meet the unique needs of clients like you. Your demand for an efficient platform to manage your contacts and seamlessly interface with third-party applications dovetails perfectly with our mastery in creating adaptable systems. We've pioneered CRMs that empower users to streamline operations, master email communications, and oversee real-time data while keeping an unwavering focus on fortifying data security and privacy.
+
+Take for instance Beeline Transport, where we executed a complete digital transformation through custom APIs and integrated systems. The result was an unprecedented surge in efficiency, culminating in extraordinary advances in customer service and real-time data management. We integrated a built-in custom Tracking System, inventory management system, supply chain management, inventory management, production planning, CRM and more. It was so successful that our client was interviewed and featured by Upwork.
+
+Here's a snip-it of the article, ""A few years ago, I decided to take our company from a paper-based system to a full-blown, tech-enabled business,” said Ryan McCrae, General Manager of Bee Line Transport, a transportation company based in Oregon. Ryan’s father had started the business and asked him to take over just two years before his passing. “I felt a responsibility to make our company what I knew it could be. I started looking on Upwork, talked to a few developers, and eventually landed with Valere Labs. From flow charts and specifications of exactly what we wanted to the finished project, Valere was amazing.”
+
+By leveraging machine learning and AI, Valere helped Ryan facilitate a digital transformation of his transportation business. Now, drivers log into Bee Line’s IOS app with their thumbprint; keep track of receipts from car washes, tolls, and more; and have instant access to all of the information they need to embark on their next job from their fingertips, wherever they are. “This has helped us retain employees and in turn improve our customer service,” Ryan said. The app uses AI to scan a label applied to every vehicle, which feeds into a full database that provides Ryan and his team with a real-time view of every detail of their business. “We used to work with stacks of worksheets and tally them up, one by one,” Ryan said. ""
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest, I'm unable to accept equity in lieu of payment at this moment. I'm still interested in chatting if this aspect is negotiable. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/","Describe your recent experience with similar projectsBeeline Transport Hive, an end-to-end management platform with a driver/dispatch dashboard, tracking capabilities, and inventory management https://apps.apple.com/us/app/driver-bee-line/id1561030503
+Case study: https://drive.google.com/file/d/1ECdzZhiXoiCSJLUwMrsVijEUV9uQjPa1/view?usp=sharing
+
+He created a video showcasing the platform which you're able to check out below, https://drive.google.com/file/d/1RfI7clH7mwOV6cmTsvSs6qoVXcjp-O_T/view
+What techniques would you use to clean a data set?I'd be happy to discuss this in detail over our initial callPlease list any certifications related to this projectI'm proud to say that we've earned an Expert-Vetted Badge from Upwork, which has ranked us among the top 1% of software development talent on the platform
+Ranked by Clutch.co in the Top App Developers and Web Developer in Massachusetts
+We’ve done projects for some big names: Johns Hopkins and Shell
+Past clients have used web and mobile apps developed by Valere to raise over $50 million (USD) in funding.
+Recently published in Upworks Q2 2023 Shareholder Report https://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 please refer to page 5, 6, and 7 to see some of our work.
+lessHow do you deal with outliers or missing values in a dataset?We handle outliers by using math and statistics to understand if they are meaningful or should be adjusted. For missing data, we fill in the gaps using methods that make sense for the type of data and why it's missing. Our goal is to keep the data accurate and useful.What tools do you use for data mining and visualization?It depends on the project. For managing FMCSA driver data and compliance, I'd recommend you use Python for data handling, web scraping tools for driver contacts, databases for storing info, and consider cloud services. To build your CRM, use Power BI or Tableau for visualizing data, enhance the website, and coordinate with Stripe for e-commerce. I would suggest you ensure flexibility for future integrations and potential equity partners.",Deep Learning Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1253342873492533248Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626758615973888https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626730136649728https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626729515892736https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626782833885184
+Video Game Development,https://www.upwork.com/jobs/~0142b0ad7ad4c028a3,"Payment negotiated depending on experience.
+I am a teacher requiring a game built for my students.
+I have a live server and atavism. I have over $500 worth of Unity assets.
+I need a custom game developed using Atavism framework in Unity.
+The game must play like a full MMORPG with the following requirements.
+1. user pressing a hotkey will have to answer knowledge questions that gives them 'spirit points'.
+2. these spirit points allows opportunities to unlock items/level up stats/unlock areas on the map etc
+3. use the synty packages that I have purchased for the art style","Hi Asher, I appreciate the invitation to check out your project. Creating an educational version of MMORPG would undoubtedly be an engaging and impactful platform. I am excited to learn more about your project and to share more about our team at Valere. Before we schedule a meeting, I want to be transparent about our company policy. We have a limited number of developers and are fully committed to producing high-quality work, which is why we only pick projects that we have a strong affection for. This means that our developers will work exclusively on your project during the entire development process, engaging quality assurance, designers, and project manager to ensure everything is going smoothly and make sure we give you a product that could be built upon as your business grows. For this reason, we are very selective about the projects we choose to work on.
+
+As part of our commitment to delivering top-notch software development solutions, we ensure that every client we work with has $20k+ for long-term software development. This allocation doesn't have to be for the first task specifically, but we want to ensure that adequate resources are available over time to support your project's growth and success. We spend a lot of time and mental energy on every client, that is why we only pursue long term relationships.
+
+Let me know if this aligns with your long-term interests and bandwidth for this project.
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed and want to be respectful of your time.
+
+If this aligns with your expectation, as a next step I’d like to get on a call to learn more and showcase some of our work in this space.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere Labs http://www.valere.io/",,https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628021080069https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274380
+Full Stack Development,https://www.upwork.com/jobs/~013229389e2139bb01,"I have a local painting client that has a static site on Hugo. I do all of his SEO and need someone that can help me with the technical side of his website. I'm use to working on Wordpress sites so this side of web development is not my expertise.
+
+I have been trained on adding blog posts but when I get any error messages I'm stumped and can't move forward in adding blog posts so would love some help with that.
+
+Looking for someone who knows Hugo & Github and that can:
+
+1. Create service pages when needed (he not only does painting but we also need pages for his pressure washing, staining, cabinet refinishing, and other services he offers.) Not all at once but in the future.
+2. Handle any website issues that may arise such as error messages and ensuring that everything is running good for Google and the search engines.
+
+If you have any questions don't hesitate to reach out.
+
+Be Blessed,
+Audrey","Hello Audrey, Happy Halloween. 🎃👻
+
+Reading your post, I felt a little bit like a kindred spirit, as I too transitioned from WordPress to static site generators. Your approach is straightforward, and it’s clear you want to optimize this Hugo site for your local painting client effectively.
+
+I totally get the shift from WordPress to Hugo; it can be like learning a new language! Since you're handling SEO, let's ensure the technical aspect complements your efforts perfectly. From creating service pages for pressure washing, staining, cabinet refinishing, and so on, to troubleshooting any error messages you encounter, I’ve got it covered.
+
+I'm quite adept with Hugo and GitHub, and I can also help in making sure the website remains search-engine friendly. While Hugo is my main gig, I'm familiar with the stack you mentioned—JavaScript, Gatsby.js, Node.js, and the others—so I bring a wide range of skills to the table.
+
+Here's a glimpse of our previous work, which I believe will match with your needs:
+
+Penny Finance: http://penny-finance.com/
+HitMeApp: http://hitmeapp.com/
+Nurture By Naps: http://nurturebynaps.com/
+Elete Basketball: http://eletebasketball.com/
+DryBar: http://drybarshops.com/
+DwellOptimal:http://dwelloptimal.com/
+
+Let's put our heads together and make this project a roaring success. I'm looking forward to helping you out with this Hugo adventure.
+
+Thanks for your consideration.
+
+Guy - http://valere.io/",,https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745110315008https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626728794472448https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626782770970624https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745223561216https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274383https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626740685324288https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762999021568https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1453032801918685185https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626749644357632https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762122412032https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626778304036864https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274389
+Full Stack Development,https://www.upwork.com/jobs/~0163fabaee6acbf4ef,"Angular & Ruby
+System being redesigned, architecture to be made more efficient, micro-services to be added.
+Well defined scope - specifications in progress.
+Current system uses Angular.
+Long term project - the team is looking to add another principal / partner to the firm, so must be interested in business ownership not simply hourly rate and disappear.
+Proponent must have the patience & diligence to produce well documented code - with tests.
+Must be able & comfortable to communicate in face to face meetings, online with cameras on - not all the time, but simple team meetings and communication updates.","DB, first and foremost, I appreciate the invitation to check out your project. It's a great fit for my team. At Valere, we do things differently. We view each project as an opportunity to raise the bar, and your need for Angular and Ruby experts aligns perfectly with our philosophy of excellence. Your project's objective of redesigning the system, optimizing architecture, and adding micro-services is an exciting challenge, and we're ready to seize it if we determine that we would indeed be a good fit for each other.
+
+Our extensive experience in system redesign and micro-services implementation makes us the ideal choice for your long-term project. We don't just write code; we architect efficient systems that stand the test of time.
+
+Valere's team comprises Angular and Ruby experts who have tackled diverse projects, leaving behind a trail of efficient, secure, and robust systems. Here's a glimpse of a couple of recent projects with a similar tech stack:
+🔹http://nurturebynaps.com/
+Nurture By Naps has carefully curated a lineup of services, support groups and virtual classes that anticipate all the questions and needs of parents.We helped them build a platform that manages all of their paid services through a single dashboard, which includes: memberships, booking consults with Acuity, courses & events and many more such sections.
+
+🔹https://reasymarket.com/
+We created a platform that supplies brokerages and agents with marketing tools. They provide quality content that's current, fresh and relevant for social media and/or farming. They have a vast supply of Canva templates for users to choose from.
+
+We're not just looking for another job; we're in this for the long haul. I can’t tell you how many clients have come to us looking help after their freelancer randomly jumped ship or delivered poor quality code that made it impossible for them to scale. The thing is, freelancers can be a single point of failure. If they become unavailable or face a personal issue, your project could stall. A team approach mitigates this risk as there are backup resources and a project manager to ensure continuity.
+
+While a single freelancer might cut corners on testing due to time or resource constraints, we have a dedicated dedicated quality assurance team.
+
+If your project grows or needs to be adapted in the future, a whole team can easily scale up to meet your requirements. A single freelancer may struggle to handle increased workloads or may not be available for additional work. We provide maintenance and support FOREVER - a lot of people ask about this one.
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere Labs http://www.valere.io/",,https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336
+scripting and automation,https://www.upwork.com/jobs/~01d818554b07a06929,"I am looking for an expert who can create a software to perform the following tasks:
+- Scrap thousands of products from supplier websites, 3-4 suppliers, dealer login required.
+- Import products into Shopify store
+- A new import needs to be performed weekly, to update Availability and Price.
+- Nice-to-have: The are ~20 product categories (tags). We need to assign a category automatically based on name/description.
+- The goal of the project is to eliminate manual inventory management (import products, update availability and prices).","Hi Valery, do you think there's a better company than Valere to accompany you on this journey? All puns aside, I'm confident we can build this custom inventory management tool you're looking for. Mostly because we've already built inventory management tools. The first project that came to mind when reading your description was our work for Beeline Transport, a complete digital transformation project with a built-in custom Tracking System, inventory management system, supply chain management, inventory management, production planning, CRM and more.
+
+The main difference is he wasn't using Shopify. Are you hoping to get this tool in the Shopify store or just that the tool will work well with Shopify? That will change how we would approach this project 100%.
+
+Here's a video of our client we did the inventory management system for along with other things. He was so pleased with the results created a video showcasing the platform: http://drive.google.com/file/d/1RfI7clH7mwOV6cmTsvSs6qoVXcjp-O_T/view
+
+My team and I have developed web scraping solutions for various industries such as finance, healthcare, and e-commerce. We use state-of-the-art techniques and tools to ensure the data we collect is accurate and reliable.
+
+Additionally, our team has hands-on experience in AI technologies. We have worked on projects that require understanding and analyzing large amounts of online content/data. Our team has built custom AI models that can identify and extract key insights from text-based data. We have also leveraged pre-trained models to provide our clients with solutions that are both accurate and efficient.
+
+With all that said, I’m confident that we would be able to provide you with solutions that will help you scale your business.
+
+Our work:
+
+We created a web platform for recruiters to discover ""sentiment scores"" that convey how employees feel about being at their company. Used by recruiters to poach employees from companies. Uses AI that scrapes data from the web. This project is currently under strict NDA so I’m unable to share a link at this time.
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+http://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our in-depth reviews on Clutch, http://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/","• Please describe your solution: your approach, tech stack, deliverables, deployment, etc.My approach involves developing a robust web scraping and automation system that will streamline the inventory management process for your Shopify store. The system will automatically scrape product data from the supplier websites, import the products into your Shopify store, and perform weekly updates to ensure the accuracy of availability … more
+• Describe your recent experience with similar projectsI've included project links and descriptions in our cover letter in addition to attaching a PDF version of our portfolio. Once we learn more about your vision and project details, I'd be happy to demo projects that align more with what you're looking to build. In the meantime, I’d be happy to answer any questions you may have regarding what I’ve shared so far and how it may relate to your project. less",Scripting & Automation Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626717876699136https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626778232733696https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626730405085184Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626779570716672https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1549040414996959232
+Generative AI,https://www.upwork.com/jobs/~016e313b550a0ff77e,"Hello!
+I am looking for a developer to create a content AI tool. This tool will make it very easy for a user to answer a few questions and the tool will generate 12 months of social media post for the user.
+If you have developed something like this or similar please send over a loom.
+I look forward to speaking with you soon!","Hi Luke, here's the video to the tool most similar you asked for. http://youtube.com/shorts/obXfvmaYrBI
+
+Athes is a sports application that uses AI to edit and optimize sports content in categories such as training, conditioning, and biographies to create an engaging learning experience for athletes. AthesAI takes long-form videos uploaded to YouTube, translates the video into a transcript, and is trained using OpenAI’s ChatGPT to identify and optimize content for engagement. The AI can identify skills displayed in the videos and separate the content into different categories so users can cut right to the action.
+http://apps.apple.com/us/app/athesai/id6451111993
+
+Choosing an experienced AI partner is not just about avoiding pitfalls – it's about ensuring that every step aligns seamlessly with your objectives, saving you costly mistakes. I'd caution you from believing just anyone's ""AI skills"". See if you can find someone here in this link https://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 it's not that long, but if you start on page 5 you'll see an Upwork named AI expert.
+
+Valere is an expert-vetted software development team with extensive experience crafting revolutionary AI and machine learning solutions and a clear understanding of the intricate dance between technology and business goals.
+
+We don't just build; we envision. Our team's experience ranges from AI-driven sports applications like Athes, which optimizes content for athlete engagement, to groundbreaking apps like Elete that gamify skill development using AI and Augmented Reality.
+
+We've tasted success in areas of AI in real-world applications. We've worked on projects like PredictionHealth, infusing AI into therapy notes, and Datalux, an automation tool for financial reconciliation, in addition to working with MARs through Antech. Mars is the 4th largest private company, building an AI application to optimize the scheduling of surgeries.
+
+Beyond our portfolio, what sets us apart is our commitment. We genuinely care about ensuring that your venture thrives.
+
+Our Projects:
+Athes: http://athes.io/
+Elete: http://apps.apple.com/us/app/elete-dribbling-training/id1454189239?ls=1
+PredictionHealth: http://predictionhealth.com/
+Datalux: http://datalux.com/
+Hopps: http://hopps.io/
+Genesis Research: http://genesisrg.com/
+
+Our expertise in Agile methodologies aligns us with your priorities, ensuring a transparent and efficient workflow. We not only translate project requirements into technical specifications but also value the collaboration that's instrumental to success.
+
+For a better understanding of our work and delivery standards, please take a look at our portfolio here:
+http://drive.google.com/file/d/1s_o5l9opR1bDmjqONdYtcL0bWhmHlw0F/view?usp=sharing
+
+Also, please check out our in-depth reviews and analysis on the leading B2B review site, Clutch: http://clutch.co/profile/valere-labs
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/
+
+P.S 𝐍𝐄𝐖 𝐔𝐏𝐃𝐀𝐓𝐄: Dive into the Latest Upwork Article - Unveiling the AI Revolution at Valere
+http://upwork.com/success-stories/using-ai-at-valere-labs","What type of AI tools have you developed?We have built AI tools for analytics, for sales, for marketing, content creation as mentioned above, for healthcare... I could go on and on and on. Let's jump on a call to talk about your specific needs/wants on this project.",https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626755474440192https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626716094119936https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1691099314254262272
+Mobile App Development,https://www.upwork.com/jobs/~0105e305407afede6d,"We have an existing React Native project that is used on iOS tablets (iPads) exclusively. We have a customer who would like to use it on Android tablets, so I would like to find a developer with expertise in Android builds who can configure that.
+I would like to set this up with Github Actions, so after showing that it can be done locally, I hope you have experience with GHA to help configure a build automation as well","Hi to the Neurotrack team, I've spent 10+ years creating award-winning mobile apps that are fast, attractive, responsive, and easy to use. After years of relentless dedication to our craft and commitment to our clients’ success, we developed an outstanding track record of proven knowledge of Android mobile application development using Java and Kotlin. My work has been featured by Apple, Google, TechRadar, and the New York Times and I have had the opportunity to call Fortune 500 companies my clients along with other reputable institutions!
+
+I have been developing web and mobile software since 2012 in Boston MA, where I started the largest mobile app fitness brand at the time called Fitivity, which achieved over 15 million downloads and raised $1.5 million in venture capital from top VC’s in the U.S. I exited Fitivity through acquisition along with another consumer application within four years.
+
+And my mother would kill me if I didn’t mention that I have a Masters in Business Administration and a Masters in Information Systems...
+
+While building Fitivity, I worked with in-house developers, off-shore freelancers, and agencies. This experience allowed me to optimize on the SCRUM agile methodology, while also innovating based on specific project attributes.
+
+That is what led me to create Valere Labs (http://www.valere.io/) with the fundamental thesis to use my experience developing high-quality software to help others 1) Do it Right, 2) Do it Efficiently, and 3) Do it Ethically.
+
+Check out some projects we’ve done recently!
+
+https://play.google.com/store/apps/details?id=com.avda.avdajobs&hl=en_US&gl=UShttps://play.google.com/store/apps/details?id=com.homeappraisalhttps://play.google.com/store/apps/details?id=com.absolut.drinkspiration.androidhttps://play.google.com/store/apps/details?id=com.tantrum.berrinche&hl=en_US&gl=UShttps://play.google.com/store/apps/details?id=com.bildithttps://play.google.com/store/apps/details?id=com.Secyre.bosswebtech.secyrehttps://play.google.com/store/apps/collection/cluster?clp=igM4ChkKEzkwNzM3MDExOTg0MDM0Njc3NTMQCBgDEhkKEzkwNzM3MDExOTg0MDM0Njc3NTMQCBgDGAA%3D:S:ANO1ljJ_qak&gsr=CjuKAzgKGQoTOTA3MzcwMTE5ODQwMzQ2Nzc1MxAIGAMSGQoTOTA3MzcwMTE5ODQwMzQ2Nzc1MxAIGAMYAA%3D%3D:S:ANO1ljLNtuE)
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/",,Deviceshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108551Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274376https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628012691466https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712726093824
+Mobile App Development,https://www.upwork.com/jobs/~017361e9b465d07854,"We are looking for a Mobile Android developer:
+
+Mandatory experience:
+• Android platform (Permissions, Background/Foreground Services, UI, …)
+• Java and previous android studio frameworks, concepts and tools
+• Kotlin, including latest plugin and libraries systems (gradle, maven, ….)
+• BLE, in particular with Nordic Kotlin/Java BLE library, NUS and BLE custom services
+• A good understanding of BLE operation principles and native BLE Android API.
+• Experience with communication protocols and frameworks (HTTPS, Raw UDP/TCP, MQTT, …)
+
+Asset:
+• Worked with binary data.
+• Used encryption or certificates (custom)
+• Experience using GIS components.
+
+Please send your CV with a brief description including past relevant work.","Hi there, I want to share something I've learned over the past 10 years and through completing +375 projects in the software development industry. Full-stack freelancers can be a cost-effective option for simple projects, however; a whole-team approach offers numerous advantages in terms of expertise, efficiency, quality, and support.
+
+It's a strategic choice that can make a significant difference in the success of your project, ensuring that it meets or exceeds your expectations. Now, on a personal note, don't let your dream project fall into the wrong hands, only to be met with subpar execution and avoidable errors that would cost you more money in the long run.
+
+When you work with us we supply you with front-end and back-end developers, UX and UI designers, project managers, account managers, and quality assurance experts. This collective expertise ensures that every aspect of your project is handled by a specialist, resulting in a higher-quality end product. After years of relentless dedication to our craft and commitment to our client’s success, we developed an outstanding track record of proven knowledge of Android mobile application development using Java and Kotlin. My work has been featured by Apple, Google, TechRadar, and the New York Times and I have had the opportunity to call Fortune 500 companies my clients along with other reputable institutions!
+
+Check out some projects we’ve done recently.
+
+https://play.google.com/store/apps/details?id=com.avda.avdajobs&hl=en_US&gl=UShttps://play.google.com/store/apps/details?id=com.homeappraisalhttps://play.google.com/store/apps/details?id=com.absolut.drinkspiration.androidhttps://play.google.com/store/apps/details?id=com.tantrum.berrinche&hl=en_US&gl=UShttps://play.google.com/store/apps/details?id=com.bildithttps://play.google.com/store/apps/details?id=com.Secyre.bosswebtech.secyrehttps://play.google.com/store/apps/collection/cluster?clp=igM4ChkKEzkwNzM3MDExOTg0MDM0Njc3NTMQCBgDEhkKEzkwNzM3MDExOTg0MDM0Njc3NTMQCBgDGAA%3D:S:ANO1ljJ_qak&gsr=CjuKAzgKGQoTOTA3MzcwMTE5ODQwMzQ2Nzc1MxAIGAMSGQoTOTA3MzcwMTE5ODQwMzQ2Nzc1MxAIGAMYAA%3D%3D:S:ANO1ljLNtuE)
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/","Describe your recent experience with similar projectsI've included project links and descriptions in our cover letter in addition to attaching a PDF version of our portfolio. Once we learn more about your vision and project details, I'd be happy to demo projects that align more with what you're looking to build. In the meantime, I’d be happy to answer any questions you may have regarding what I’ve shared so far and how it may relate to your project",Deviceshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108550Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274376https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712726093824https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274384https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836446245076992https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468677
+Mobile App Development,https://www.upwork.com/jobs/~01326bef978392bb61,"I have all of the Design Screens (35-40), so now I need a Developer to finish the project.","Hi there, what's your bandwidth for this project? I have two offices in India, they're part of 5 total offices that make up my software development agency Valere. I'm Guy Pistone, by the way. CEO and Founder of this joint. We've done some exciting projects out of our India offices and hearing that you've got tons of design screens primed and ready to go means we can dive straight into the work.
+
+When you work with us we supply you with front-end and back-end developers, UX and UI designers, project managers, account managers, and quality assurance experts. This collective expertise ensures that every aspect of your project is handled by a specialist, resulting in a higher-quality end product. With my experience in developing high-quality, scalable, and user-friendly software applications, I believe I can provide the skills and expertise necessary to help you achieve your business goals.
+
+Our work:
+
+https://apps.apple.com/in/app/sukhi-workplace-well-being/id1585123698https://play.google.com/store/apps/details?id=com.sukhi.app
+We helped Sukhi build an Android and iOS version of their mental health app which they have been licensing to companies around the world! Sukhi streams live workshops, on-demand audios, and tools to help your workforce thrive. Sukhi was able to raise significant funds after working with Valere to sell their platform to Fortune 500 corporations across the United States.
+
+Case Study: https://drive.google.com/file/d/1BRqG7PGxSO4VrUm_IO_rTGmMTt1gpRpO/view?usp=drive_linkhttps://apps.apple.com/us/app/v1-golf/id349715369https://play.google.com/store/apps/details?id=com.v1.v1golf2&hl=en_US&gl=US
+🏌🏼‍♂️V1 Golf swing analysis and golf instruction app empowers golfers to be their best. Capture and review your technique with powerful golf swing analysis and video editor playback tools. Send golf swing videos to a golf coach and receive voice-over video lessons.
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/",Business Sizehttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836481842135040https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836476611837952Deviceshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108554https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108553https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108552https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1225465941888045056https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1225465952591908864Mobile Platformshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162209007587328https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274378https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626791314767872https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794691182592Popular Apple Development APIshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468672https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468673https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468674https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468677https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468676https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468678https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468679https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468680https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468681https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468682https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468683https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468684https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468685https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468686https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468687https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468688https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468689https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468690https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836448744882176https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836448841351168https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626727439712256https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836457674555392https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745793986560https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1192876960220987392https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762562813952https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836472841158656https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626783123292160https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794678599680https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795131584512https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626714919714816,Business Sizehttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836481842135040https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836476611837952Deviceshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108554https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108553https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108552https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1225465941888045056https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1225465952591908864Mobile Platformshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162209007587328https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274378https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626791314767872https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794691182592Popular Apple Development APIshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468672https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468673https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468674https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468677https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468676https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468678https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468679https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468680https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468681https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468682https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468683https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468684https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468685https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468686https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468687https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468688https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468689https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628029468690https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836448744882176https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836448841351168https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626727439712256https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836457674555392https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745793986560https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1192876960220987392https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762562813952https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836472841158656https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626783123292160https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626794678599680https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795131584512https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626714919714816
+Full Stack Development,https://www.upwork.com/jobs/~0179c65b88ba791a84,"Full stack development.
+We are Riad Invest, a start-up specializing in fractional real estate investment in luxury Riads in Marrakeck. Our customers can buy a fraction of a property and enjoy monthly rental returns in proportion to their investment. Our current website is hosted on Shopify, but we are looking to transition to Webflow with a complete new design.
+We are aiming to integrate an Web application layer (customer should be able to connect their Dashboard with online their own wallet, check their properties investment).
+Requirements:
+-User Authentication: Users must be able to register and log in to their account
+-Document Upload: Users should have the capability to upload identity verification documents such as ID, driver's license, or passport (KYC)
+-Payment Options: Implement payment methods such as credit card and wire bank transfer direct debit to allow users to charge their accounts in order to suscribe to bonds.
+-Contract Signing: Users should be able to digitally sign bond contracts online.
+- Users should be able to digitally sign bond contracts online.
+- He permanently have access to this document
+-Electronic Signature.
+- Dashboard for each customer needed
+- Property Subscription:
+- On the property page, when a property is in the process of being funded, clients should be able to subscribe to the property.
+- They can purchase one or more ""bond"" of 50 euros using the balance in their wallet.
+- After selecting the number of ""bhond,"" the client must digitally sign the bond loan agreement.
+- Monthly Profits Distribution:
+- Profits will be distributed monthly.
+- The gains should be prorated according to the amount invested
+and should be deposited into the client's wallet in ""Euro""
+- Client can withdraw the fund gained
+-Design:
+For design guidelines, you can refer to our Figma.
+We are open to fresh design ideas but the overall theme should be consistent.
+Functionality:
+The platform’s features should be similar to those of our competitors:
+Meute Invest : (link removed)
+Bloks : (link removed)
+Tantiem : (link removed)
+Bricks : http://www.bricks.co/
+Skills Required:
+Strong experience with Webflow (front end)
+Experience on Bubble, react, node js (back end)
+Experience with web application
+Payment gateway integration
+User authentication and data security
+Previous experience with real estate platforms is a plus
+If you think you’re a good fit for this project, we would love to hear from you.","Hi, I love the Real Estate space and get excited when I come across innovative real estate technology or people looking to create complex CRMs or Zillow-like platforms. I’m very interested in learning more about your project. I'm a package deal if you decide to work with me. When you work with me, I supply you with front-end and back-end developers, UX and UI designers, project managers, account managers, and quality assurance experts. This collective expertise ensures that every aspect of your project is handled by a specialist, resulting in a higher-quality end product.
+
+I've spent 10+ years creating award-winning software that is fast, attractive, responsive, and easy to use. I have thousands of hours logged on UpWork with a 100% success score, and I'm Top Rated Plus (Top 3% of ALL Upwork!). My work has been featured by Apple, Google, TechRadar, and the New York Times! In 2009, I started the largest mobile fitness app at the time called Fitivity, which achieved over 15 million downloads and raised $1.5 million.
+
+After Fitivity, I worked with in-house developers, off-shore freelancers, and agencies. I saw what worked and what didn't. I dealt with all kinds of developers who just wanted my money and didn't care about my product.
+
+The process was broken. After 2 successful exits, I decided to re-invest and fix the process. That is what led me to create Valere Labs (http://www.valere.io/) with the fundamental thesis to use my experience developing high-quality software to help others 1) Do it Right, 2) Do it Efficiently, and 3) Do it Ethically.
+
+Check out these platforms we’ve recently built in this space:
+
+DwellOptimal provides an alternative to the hotel experience by providing secure real estate solutions for corporate extended-stay travel. We helped them create an integrated software platform for managing utilization, controlling unit environments remotely and allowing employees to tailor elements of their live|work spaces.
+http://cryptohomes.com/
+
+We helped Crypto Homes create the first fully functional marketplace to buy and sell homes using cryptocurrency.
+http://cryptohomes.com/
+
+BPO Xpress contracts photography out to local drivers. Use your cell phone, your car, and a few minutes of your spare time to make as much as $70/hr completing exterior photography on vacant homes, investment properties, and apartment buildings from the exterior for banks, insurance companies, and other institutional investors.
+http://apps.apple.com/us/app/home-appraisal/id1643929698http://play.google.com/store/apps/details?id=com.homeappraisal
+
+KOVA ENVIRONMENT CONFIGURATOR: 3D web platform where users can change kitchen and bathroom environments with products offered by the brand such as floors, cabinets, quartz, etc. After choosing the products, a form is sent where the supplier receives the information selected by the client to generate a quote and start a conversation.
+http://simply3d.co/demos/kova_2
+
+We created a platform that supplies brokerages and agents with marketing tools. They provide quality content that's current, fresh and relevant for social media and/or farming. They have a vast supply of Canva templates for users to choose from.
+http://reasymarket.com/
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+http://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our in-depth reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/",Full Stack Development Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580737240190976https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836451865444352Full Stack Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762999021568https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162208982421516https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795211276288https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795181916160https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745110315008https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626728794472448https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580728344072192wized,Full Stack Development Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580737240190976https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836451865444352Full Stack Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762999021568https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162208982421516https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795211276288https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795181916160https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745110315008https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626728794472448https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580728344072192wized
+scripting and automation,https://www.upwork.com/jobs/~01a933cddb75969cd4,"Please see the very terribly designed mockups attached to the job post. I will improve them, but this should give you an idea of the concept.
+On a budget: I just want a MVP to test the market - and then we can expand functionality if it is successful.
+Functionality:
+- Users create an account and can define hastags, profiles, keywords and pages to follow on FB, LI, TW.
+- IN their account, they select the social media channel on the left, and then can click each tab to see the latest content or posts from what they are following.
+Later:
+- It would be great to allow sort order in results (relevancy, popularity) if possible
+- It would be great if we could start showing trends (trending up, trending down) after collecting some data
+- Expand other channels like Reddit, QUora, etc","Hi, this is right up my alley. My team and I have developed web scraping solutions for various industries such as finance, healthcare, and e-commerce. We use state-of-the-art techniques and tools to ensure the data we collect is accurate and reliable.
+
+Additionally, our team has hands-on experience in AI technologies. We have worked on projects that require understanding and analyzing large amounts of online content/data. Our team has built custom AI models that can identify and extract key insights from text-based data. We have also leveraged pre-trained models to provide our clients with solutions that are both accurate and efficient.
+
+With all that said, I’m confident that we would be able to provide you with solutions that will help you scale your business.
+
+Our work:
+
+We created a web platform for recruiters to discover ""sentiment scores"" that convey how employees feel about being at their company. Used by recruiters to poach employees from companies. Uses AI that scrapes data from the web. This project is currently under strict NDA so I’m unable to share a link at this time.
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our in-depth reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/","What is your solution to complet? Tell me code, platform, language, etc.Here's my proposed solution:
+
+Platform and Languages:
+Frontend: React.js for building a dynamic and responsive user interface. React is efficient for handling dynamic content updates, which is crucial for displaying real-time social media feeds.
+Backend: Node.js with Express.js framework for the server-side logic. Node.js can handle asynchronous calls well, which is necessary for interacting with various social media APIs.
+Database: MongoDB for a flexible, schema-less structure that can easily store user data and preferences as well as the social media content in JSON-like documents.
+Authentication: JWT (JSON Web Tokens) for secure user authentication.
+APIs Integration: Social media APIs (Facebook Graph API, Twitter API, LinkedIn API) to fetch the relevant content based on user-defined parameters.
+Hosting/Deployment: Use a service like Heroku for hosting the MVP. It integrates seamlessly with Node.js and offers a free tier for small-scale applications.
+
+Development Approach:
+Prototyping: Start by improving the mockups to design a clean and intuitive UI/UX.
+Setup Development Environment: Initialize the project with Node.js and React, setting up the necessary dependencies and development tools.
+User Authentication: Implement user signup and login features.
+User Preferences Storage: Allow users to define and store their preferences (hashtags, profiles, keywords, pages) in MongoDB.
+Social Media Integration: Develop modules for fetching data from different social media channels based on user preferences.
+Content Display: Create components in React to display the fetched content in tabbed views as per the selected social media channel.
+MVP Testing: Conduct thorough testing of the MVP with potential users to identify bugs and gather feedback.
+
+Future Considerations:
+Once the MVP has been validated in the market, you can prioritize additional features such as sorting algorithms, trend analysis, and expanding the list of supported platforms.
+
+Implement caching strategies or consider using a service like Redis to manage the increased data load.
+Integrate more complex data analytics for trend detection.
+Consider scalability options, such as moving to a cloud solution like AWS or Azure, which can provide more robust services for scaling up the application.
+
+Code and Deployment:
+Version Control: Use Git for version control, with GitHub or GitLab to host the repository.
+Continuous Integration/Deployment: Set up CI/CD pipelines using Jenkins or GitHub Actions to automate the deployment process.
+This approach provides a balance between cost-effectiveness and the potential for scalability. The MVP will serve to validate the concept in the market, and the chosen technologies will allow for easy expansion and feature integration based on user feedback and market demand. lessWill data be saved to database, or is it all done in real time?The system would ideally use a combination of both real-time data processing and database storage for efficiency and performance.
+
+Real-Time Data Processing:
+The latest content or posts from social media channels would be fetched in real time using the APIs provided by each platform (Facebook, Twitter, LinkedIn, etc.).
+The user would see the most current information as the system queries the social media APIs when the user selects a particular tab or refreshes their feed.
+
+Database Storage:
+User accounts and their preferences (such as defined hashtags, profiles, keywords, and pages to follow) would be stored in the database (like MongoDB).
+This persistent storage ensures that when users log in, their preferences are retrieved and used to fetch the relevant content from social media channels.
+For performance optimization, the system could cache frequently accessed data or store historical data trends for quick retrieval without making API calls for data that doesn't change often.
+
+Combining Both:
+While the live feeds are generated in real time, the application could also save snapshots of the data at regular intervals to build a historical view. This would be essential for the ""trends"" feature to analyze data over time.
+The system could also cache some of the real-time data temporarily to reduce the number of API calls and improve the user experience by providing quicker load times.",https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626730405085184
+Full Stack Development,https://www.upwork.com/jobs/~01c181e49e876c1ae0,"Overview
+We are a mission-driven organization committed to monitoring and combating app censorship on a global scale. We are in search of a dedicated and proficient Web Developer to lead the development and maintenance of a new website for our (Google's) Play Store Monitor (PSM),
+The Play Store Monitor, currently in development, aims to let users test app availability in over 140 countries where Google Play is operational. This initiative complements our existing App Store Monitor (ASM), which is already operational on http://applecensorship.com/ and offers similar functionalities for Apple’s App Store.
+If you are passionate about digital rights and possess the technical skills to contribute to our vision, we invite you to join our team.
+Job Role
+Responsibilities:
+• Lead the development and maintenance of our new Play Store Monitor (PSM) website, adhering to the UX design and guidelines set forth by our design team.
+• Collaborate with multidisciplinary teams to deliver a comprehensive suite of website functionalities, such as real-time app availability testing, archival of historical test data, and in-depth pages for specific countries, apps, detected changes, and disappeared apps.
+• Ensure the website's optimal performance, scalability, and reliability to deliver a seamless user experience.
+• Provide actionable suggestions for UI/UX improvements based on user feedback and performance metrics.
+Requirements:
+• Expertise in front-end technologies.
+• Mastery of back-end technologies.
+• Familiarity with database management systems.
+• Solid understanding of API integrations for data retrieval and manipulation.
+• Demonstrable experience in responsive web design and ensuring cross-browser compatibility.
+• Exceptional problem-solving abilities and meticulous attention to detail.
+• Capability to work autonomously, effectively managing multiple responsibilities.
+Bonus Points:
+• Previous experience in digital rights, advocacy, or human rights projects.
+• Contributions to open-source development initiatives.
+Benefits:
+• Competitive compensation package.
+• Work remotely.
+• Engage in meaningful work as part of a team committed to social impact.
+How to Apply:
+1. Review the existing AppleCensorship website.
+2. Send your resume and portfolio along with answers to the following questions:
+* What elements of the existing AppleCensorship website would you change or improve? (Note: We already have a list of planned improvements and new functions. However, we're keen to hear your thoughts.)
+* What languages or software do you recommend using for the Play Store Monitor project? (including suggestions of framework/libraries)
+* How has AI influenced your approach to work?
+* Submit a link to one website you have developed that you're particularly proud of and that is relevant to this role.
+If you're a skilled web developer with a commitment to digital rights and a desire to drive meaningful change, we encourage you to apply.
+Join us in our global endeavor to combat mobile app censorship; we are excited to see how you can contribute to our mission.","Hi, I've spent 10+ years creating award-winning mobile apps that are fast, attractive, responsive, and easy to use. After years of relentless dedication to our craft and commitment to our client’s success, we developed an outstanding track record of proven knowledge of Android mobile application development using Java and Kotlin. My work has been featured by Apple, Google, TechRadar, and the New York Times and I have had the opportunity to call Fortune 500 companies my clients along with other reputable institutions!
+
+Databases are some of my favorite projects. Their complexity really excites me and my team loves a good challenge. Check out some of these projects that each have their own, custom database.
+
+Rootines is a patient engagement platform for Pediatric Behavioral Health, supporting remote patient monitoring. https://www.rootines.app/
+With Krystallize users can save, organize and share links, media, documents, and email in one application. https://apps.apple.com/us/app/krystallize/id6449075628
+FlyVirga's app enables pilots to socially connect, and submit PIREP reports, and is recognized by FAA as ""The Official App to Submit PIREP Reports."" https://apps.apple.com/ca/app/fly-virga/id1524210560
+Datalux automates manual reconciliation and reporting tasks across omnichannel marketplaces and financial statements. https://www.datalux.com/
+
+We are committed to delivering high-quality work that meets your needs and exceeds your expectations. I would work closely with you to ensure that I understand your requirements and deliver a solution that is tailored to your business. I've walked the path of CEO at Valere and Co-Founder of Valere Margins, both top-tier software development agencies. I bring deep insights into the world of software development, a cornerstone for many startups.
+
+Our expertise in Agile methodologies aligns us with your priorities, ensuring a transparent and efficient workflow. We not only translate project requirements into technical specifications but also value the collaboration that's instrumental to success.
+
+For a better understanding of our work and delivery standards, please take a look at our portfolio here:
+http://drive.google.com/file/d/1s_o5l9opR1bDmjqONdYtcL0bWhmHlw0F/view?usp=sharing
+
+Also, please check out our in-depth reviews and analysis on the leading B2B review site, Clutch: http://clutch.co/profile/valere-labs
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/
+
+P.S 𝐍𝐄𝐖 𝐔𝐏𝐃𝐀𝐓𝐄: Dive into the Latest Upwork Article - Unveiling the AI Revolution at Valere
+http://upwork.com/success-stories/using-ai-at-valere-labs",,Full Stack Development Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580482566246400https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836451865444352Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795211276288
+Full Stack Development,https://www.upwork.com/jobs/~01c9d16f3d3256b40d,"We at http://wetal.com/ are seeking a talented and experienced Full Stack Developer to join our development team. The ideal candidate should have a strong understanding of both front-end and back-end technologies, as well as the ability to work on a variety of web applications and projects. As a Full Stack Developer, you will be responsible for designing, developing, and maintaining web applications, ensuring they are performant, scalable, and user-friendly.
+Key Responsibilities:
+Front-end Development:
+Create responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.
+Implement user interactions and enhance the user experience.
+Ensure cross-browser compatibility and mobile responsiveness.
+Collaborate with UI/UX designers to create a seamless user interface.
+Back-end Development:
+Develop server-side logic and APIs using programming languages like Node.js, Python, Ruby, or Java.
+Design and maintain databases, ensuring data integrity and efficiency.
+Implement security and data protection measures.
+Optimize applications for maximum speed and scalability.
+Database Management:
+Create, update, and maintain databases.
+Write efficient database queries and manage data storage solutions.
+Ensure data security and integrity.
+Version Control:
+Utilize version control systems such as Git to manage codebase and collaborate with team members.
+Testing and Debugging:
+Write unit and integration tests to ensure code quality.
+Identify and fix bugs, performance bottlenecks, and other issues.
+Deployment and DevOps:
+Deploy web applications on various platforms, such as AWS, Azure, or Heroku.
+Work with DevOps teams to set up and maintain CI/CD pipelines.
+Monitor and optimize application performance.
+Collaboration:
+Collaborate with cross-functional teams, including UI/UX designers, product managers, and other developers, to deliver high-quality products.
+Participate in code reviews and provide constructive feedback.
+Qualifications:
+Bachelor's degree in Computer Science, Software Engineering, or a related field (or equivalent work experience).
+Proven experience as a Full Stack Developer or similar role.
+Proficiency in front-end technologies such as HTML, CSS, JavaScript, and front-end frameworks (e.g., React, Angular, or Vue.js).
+Strong back-end development skills with expertise in one or more programming languages (e.g., Node.js, Python, Ruby, Java).
+Experience with databases and SQL (e.g., MySQL, PostgreSQL, MongoDB).
+Familiarity with version control systems (e.g., Git).
+Knowledge of web security best practices.
+Problem-solving skills and an ability to work independently and in a team.
+Strong communication and collaboration skills.
+Continuous learning and staying updated with the latest technologies and trends in web development.
+Additional Preferred Skills:
+Experience with cloud platforms (e.g., AWS, Azure, GCP).
+Knowledge of containerization and orchestration technologies (e.g., Docker, Kubernetes).
+Familiarity with DevOps practices.
+Understanding of Agile and Scrum methodologies","Hi Charlotte and the WeTal team, my team and I have developed more than 300 mobile and web apps, and we're confident that we can provide you with high-quality development services. I know you were looking for a full-stack developer, but honestly speaking, based on 10 years of experience, I’ve come to realize that having dedicated front-end and back-end developers, a designer, quality assurance, and a project manager on the team is the best way to ensure a successful project, all of which we would supply.
+
+We are the one-stop shop for development when you want it done right!
+
+For one of my first startups, I tried going the full-stack route. Then when it came to building upon v1.0 and bringing other developers onto the team, I, unfortunately, realized the backend code was trash. The architecture wasn't set up correctly, so we had to scratch EVERYTHING and start all over. I don't want to put anyone through the same headaches I had to deal with.
+
+We're committed to providing a comprehensive and integrated approach to development, ensuring that we deliver a product that you can build upon rather than a ""one and done"" project code.
+
+🔸Reasons why we are a great fit for your project:
+-We have experience with Agile methodologies to align with your priorities
+-We will assign a project manager to your project who communicates effectively, both orally and in writing, with UX/UI Professionals, Product Development Engineer(s), Quality Assurance, 3rd-party vendors (if any), Senior Leadership, and end-customers (technical and non-technical)
+-We break down work into Minimum Viable Products (MVP) and iterate quickly on preferred product changes
+-We offer architecture recommendations, will walk you through a user flow diagram, provide data modeling, a plan of development, and detailed user story(ies)
+-We also provide dedicated dev-ops to ensure server security. We support and maintain AWS, Google Cloud, and Microsoft Azure cloud services.
+-And most importantly, aside from our proven track record, we’re passionate, dedicated, and invested in our work
+
+🔸Our work:
+https://apps.apple.com/us/app/athesai/id6451111993 uses AI to edit and optimize sports content
+https://www.thesukhiproject.com/sukhiapp they have partnered with HUGE names
+https://apps.apple.com/us/app/trecco-your-travel-community/id1501824385 5 star rating in Apple store
+https://eletebasketball.com/ Computer vision and ML, company reached $1M in sales within first 2 years
+https://apps.apple.com/us/app/vizref/id1482680568?ign-mpt=uo%3D2 featured by The New York Times
+https://apps.apple.com/us/app/v1-golf/id349715369 if you play golf, you’ve probably heard of them
+https://apps.apple.com/ca/app/fly-virga/id1524210560 used by the NAFI (National Association of Flight Instructors), and it is recognized by the FAA (Federal Aviation Administration) as “The Official App to Submit PIREP Reports”
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/",,Full Stack Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762999021568Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274383
+Full Stack Development,https://www.upwork.com/jobs/~01e667a69753efc3cd,"We are in search of a highly skilled and innovative full-service development and design agency/team to join Ball Cap Project Management LLC. Our objective is to develop an AI-based project management software that specifically caters to the marketing/advertising and entertainment industries. We require talented front-end and back-end developers, as well as designers, who can bring our vision to reality.
+Responsibilities:
+- Collaborate with our team to comprehend project requirements, objectives, and desired outcomes.
+- Develop a comprehensive project management software solution utilizing AI technologies.
+- Create user-friendly interfaces that enhance the user experience.
+- Implement efficient back-end systems that ensure smooth functionality of the software.
+- Conduct thorough testing of the developed software to identify any bugs or issues.
+- Continuously improve the software based on user feedback and industry trends.
+Requirements:
+Front-end Developers:
+- Proficient in HTML5, CSS3, JavaScript (including frameworks like React or Angular).
+- Experience in creating responsive web designs compatible with multiple devices.
+- Strong understanding of UI/UX principles.
+Back-end Developers:
+- Expertise in programming languages such as Python, Java, or Ruby on Rails.
+- Familiarity with database systems (e.g., MySQL, MongoDB) and RESTful APIs.
+- Knowledge of cloud platforms (e.g., AWS) for deployment purposes.
+Designers:
+- Proficient in graphic design tools such as Adobe Photoshop or Sketch.
+- Ability to create visually appealing designs while adhering to brand guidelines
+and usability standards.
+- Understanding of user-centered design principles.
+Additional Skills (preferred but not required):
+- Experience with AI technologies such as machine learning algorithms or natural language processing.
+- Knowledge of agile development methodologies.
+- Familiarity with marketing/advertising or entertainment industries.
+Benefits:
+- Opportunity to work on cutting-edge AI technology.
+- Collaborative and friendly work environment.
+- Room for growth and professional development.","Hi Jay and the Ball Cap Project Management Team! Boy, do I have the perfect agency for you. I noticed you've been doing PM transformation since 2018. I'm sure that means you have tons of ideas on how this AI-based project management software should work. Here are some of the groundbreaking features we are looking to incorporate:
+
+Predictive Task Scheduling: Leveraging historical data, our software aims to craft the most effective schedules for tasks and resources, preemptively identifying and resolving potential delays or conflicts.
+Automated Risk Assessment: With an always-on analysis of project variables, the system will anticipate risks, from budgetary issues to timeline discrepancies, and proactively suggest effective countermeasures.
+Smart Resource Allocation: Through a deep understanding of team dynamics and individual capabilities, our AI will ensure tasks are assigned to the best-suited team members, optimizing workload distribution and preventing burnout.
+Dynamic Learning from Feedback: Our tool will evolve with each project, learning from team input to enhance decision-making processes, ensuring that each project's execution is more refined than the last.
+Natural Language Processing for Reporting: Our sophisticated NLP capabilities will allow for effortless report generation and actionable insights, all from simple voice or text commands. This will bring a new level of convenience and accessibility to project status assessments.
+
+I've walked the path of CEO at Valere and Co-Founder of Valere Margins, both top-tier software development agencies. I bring deep insights into the world of software development, a cornerstone for many startups. Also, I'd caution you from believing just anyone's ""AI skills"". See if you can find someone here in this link: http://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 it's not that long, but if you start on page 5 you'll see an Upwork named AI expert.
+
+Valere is an expert-vetted software development team with extensive experience crafting revolutionary AI and machine learning solutions and a clear understanding of the intricate dance between technology and business goals.
+
+Beyond our portfolio, what sets us apart is our commitment. We genuinely care about ensuring that your venture thrives.
+
+Our Projects:
+
+Athes: http://athes.io/
+Elete: http://eletebasketball.com/
+PredictionHealth: http://predictionhealth.com/
+Datalux: http://datalux.com/
+Hopps: http://hopps.io/
+Genesis Research: http://genesisrg.com/
+
+Our expertise in Agile methodologies aligns us with your priorities, ensuring a transparent and efficient workflow. We not only translate project requirements into technical specifications but also value the collaboration that's instrumental to success.
+
+For a better understanding of our work and delivery standards, please take a look at our portfolio here:
+http://drive.google.com/file/d/1s_o5l9opR1bDmjqONdYtcL0bWhmHlw0F/view?usp=sharing
+
+Also, please check out our in-depth reviews and analysis on the leading B2B review site, Clutch: http://clutch.co/profile/valere-labs
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step, I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy Pistone CEO & Founder - Valere http://www.valere.io/
+
+P.S 𝐍𝐄𝐖 𝐔𝐏𝐃𝐀𝐓𝐄: Dive into the Latest Upwork Article - Unveiling the AI Revolution at Valere
+http://upwork.com/success-stories/using-ai-at-valere-labs",,Full Stack Development Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580482566246400https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580737240190976https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1204836451865444352https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580538178523136https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626731394940928https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626724084269056https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626781403627520Full Stack Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626732825198592https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626741842952192
+Mobile App Development,https://www.upwork.com/jobs/~01132a6bb029680788,"We are building and scaling digital platforms, tools, and experiences for the global Health and Fitness industry.
+Currently, we are looking for an experienced Android developer for our main Fitness mobile application.
+This project requires experience with:
+- Android SDK, Kotlin, Gradle, Graphql
+- Firebase, Analytics, Push Notifications, In-app Purchases
+- BLE integration knowledge
+- Experience in understanding large and complex code bases
+- Unit and end-to-end testing
+- Releasing and publishing to Google Play
+- Mobile CI/CD configuration","Hello!
+
+I have been developing award-winning web and mobile software since 2012 in Boston MA, where I started the largest mobile app health and fitness brand at the time called Fitivity, which achieved over 15 million downloads and raised $1.5 million in venture capital from top VC’s in the U.S. I exited Fitivity through acquisition along with another consumer application within four years. While building Fitivity, I worked with in-house developers, off-shore freelancers, and agencies. I saw what worked and what didn't. This experience presented opportunities to innovate based on specific project attributes and the implementation of SCRUM agile methodologies.
+
+Since then, I've spent 10 years creating award-winning software that is fast, attractive, responsive, and easy to use. I have thousands of hours logged on UpWork with a 100% success score, and I'm proud to say that I've earned an Expert-Vetted Badge from Upwork, which has ranked me among the top 1% of software development talent on the platform. My work has been featured by Apple, Google, TechRadar, and the New York Times!
+
+This success has led my team and I to work with amazing leaders in the health and fitness space like Johns Hopkins University, Prediction Health, and more.
+
+We are passionate about helping people become more active, fit, and healthy through the development of innovative technology. We are in business to deliver value and stay true to our own. We create products and provide services that matter. We build apps that are monetized and scalable... In doing so, we build businesses that we believe in as much as you do if we’re ever so lucky to build together.
+
+Check out some of our recent projects in this space:
+
+Athes is a sports application that uses AI to edit and optimize sports content in categories such as training, conditioning, and biographies to create an engaging learning experience for athletes. : https://apps.apple.com/us/app/athesai/id6451111993
+
+Elete Basketball: An addictive app for advanced ball-handling skills, using AI and AR with a smart basketball. Learn more at https://apps.apple.com/us/app/elete-dribbling-training/id1454189239?ls=1
+
+UbiCoach: Connects clients with coaches for personal and professional growth. Explore their offerings: https://www.ubi.coach/
+
+V1 Golf: Empowers golfers with swing analysis and instruction tools. Available on iOS and Android.https://apps.apple.com/us/app/v1-golf/id349715369
+
+Game Gym: The ultimate platform for esports workouts and coaching. Check it out on iOS and Android.https://apps.apple.com/us/app/game-gym/id1666706777?platform=iphonehttps://play.google.com/store/apps/details?id=valere.com.game_gym_app
+
+Sukhi Workplace Well-being: An app for mental health workshops and tools. Find it on iOS and Android.
+https://apps.apple.com/in/app/sukhi-workplace-well-being/id1585123698https://play.google.com/store/apps/details?id=com.sukhi.app Case study: https://drive.google.com/file/d/1BRqG7PGxSO4VrUm_IO_rTGmMTt1gpRpO/view?usp=sharing
+
+Goalie Coaches: A training app for hockey goalies with drills and coaching. Available on iOS and Android. https://apps.apple.com/in/app/goalie-coaches/id1555334353https://play.google.com/store/apps/details?id=com.app.goalie_coaches
+
+Lift Off Health & Wellness: Gamified workout experience. Discover more at iOS.
+https://apps.apple.com/us/app/lift-off-health-wellness/id1587121707
+
+To see some of our projects please refer to the attached PDF/portfolio with clickable links and visuals.
+https://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view?usp=sharing
+
+I would encourage you to check out our comprehensive reviews on Clutch, https://clutch.co/profile/valere-labs#reviews
+
+Beyond my technical abilities, I am very honest. I have been in your shoes before as an entrepreneur and product builder. I want you to succeed.
+
+As a next step I’d like to get on a call to learn more.
+
+Thanks for your consideration.
+
+Guy-","Describe your recent experience with similar projectsI've included project links and descriptions in our cover letter in addition to attaching a PDF version of our portfolio. Once we learn more about your vision and project details, I'd be happy to demo projects that align more with what you're looking to build. In the meantime, I’d be … moreInclude a link to your GitHub profile and/or websitewww.valere.ioWhat frameworks have you worked with?In my recent endeavors, I collaborated with my team on developing premier applications and services, harnessing the power of several frameworks to ensure optimal results. We employed React Native to streamline cross-platform mobile app development, using a unified codebase suitable for both iOS and Android. Additionally, we utilized Angular to architect scalable web applications, ensuring maintainability and extensibility. Node.js played a pivotal role in our server-side development, facilitating swift, scalable network applications due to its event-driven and non-blocking I/O model. We chose Django for our backend development when dealing with substantial data volumes and transactions, guaranteeing security. Flutter was another essential tool in our toolkit, aiding us in designing high-fidelity applications for multiple platforms, including mobile, web, and desktop, from one cohesive codebase. Meanwhile, Spring Boot streamlined our process in kickstarting and evolving new Spring applications. Such frameworks have been the cornerstone behind our notable projects like the health and fitness platforms mentioned in my cover letter. These platforms epitomize our dedication to delivering responsive, user-focused products that captivate and sustain user interest. You can witness the testament to our commitment and expertise on our GitHub repositories and our website.",Mobile Platformshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274376https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162209007587328Mobile App Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626712726093824Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626760125923328
+Full Stack Development,https://www.upwork.com/jobs/~01c9d16f3d3256b40d,"We at http://wetal.com/ are seeking a talented and experienced Full Stack Developer to join our development team. The ideal candidate should have a strong understanding of both front-end and back-end technologies, as well as the ability to work on a variety of web applications and projects. As a Full Stack Developer, you will be responsible for designing, developing, and maintaining web applications, ensuring they are performant, scalable, and user-friendly.
+Key Responsibilities:
+Front-end Development:
+Create responsive and visually appealing user interfaces using HTML, CSS, and JavaScript.
+Implement user interactions and enhance the user experience.
+Ensure cross-browser compatibility and mobile responsiveness.
+Collaborate with UI/UX designers to create a seamless user interface.
+Back-end Development:
+Develop server-side logic and APIs using programming languages like Node.js, Python, Ruby, or Java.
+Design and maintain databases, ensuring data integrity and efficiency.
+Implement security and data protection measures.
+Optimize applications for maximum speed and scalability.
+Database Management:
+Create, update, and maintain databases.
+Write efficient database queries and manage data storage solutions.
+Ensure data security and integrity.
+Version Control:
+Utilize version control systems such as Git to manage codebase and collaborate with team members.
+Testing and Debugging:
+Write unit and integration tests to ensure code quality.
+Identify and fix bugs, performance bottlenecks, and other issues.
+Deployment and DevOps:
+Deploy web applications on various platforms, such as AWS, Azure, or Heroku.
+Work with DevOps teams to set up and maintain CI/CD pipelines.
+Monitor and optimize application performance.
+Collaboration:
+Collaborate with cross-functional teams, including UI/UX designers, product managers, and other developers, to deliver high-quality products.
+Participate in code reviews and provide constructive feedback.
+Qualifications:
+Bachelor's degree in Computer Science, Software Engineering, or a related field (or equivalent work experience).
+Proven experience as a Full Stack Developer or similar role.
+Proficiency in front-end technologies such as HTML, CSS, JavaScript, and front-end frameworks (e.g., React, Angular, or Vue.js).
+Strong back-end development skills with expertise in one or more programming languages (e.g., Node.js, Python, Ruby, Java).
+Experience with databases and SQL (e.g., MySQL, PostgreSQL, MongoDB).
+Familiarity with version control systems (e.g., Git).
+Knowledge of web security best practices.
+Problem-solving skills and an ability to work independently and in a team.
+Strong communication and collaboration skills.
+Continuous learning and staying updated with the latest technologies and trends in web development.
+Additional Preferred Skills:
+Experience with cloud platforms (e.g., AWS, Azure, GCP).
+Knowledge of containerization and orchestration technologies (e.g., Docker, Kubernetes).
+Familiarity with DevOps practices.
+Understanding of Agile and Scrum methodologies.","Hello Charlotte,
+
+I've got to say, I'm impressed by the ambitious stage you're setting up for launching some seriously innovative software. Collaborating with you just by seeing your listing seems like a good fit. It's pretty rare to find a listing so detailed, one that's all about blending hardcore tech skills with a genuine passion for breaking new ground in the software world. Over at Valere, we're not just a bunch of coders; think of us more like master builders in the digital universe. We're excited to roll up our sleeves and get our hands dirty, bringing a solid ten years of experience in creating memorable, impactful software to your project. Are you looking for a partner who's fluent in the whole tech talk, from front-end to back-end? Well, that's music to our ears because that's exactly what drives us. Let's chat and see how we can mesh our know-how with your vision.
+
+Just take a look at our crafted solutions for Penny Finance or the intricate systems at play behind DryBar. Each thread of code we weave is tailored to the unique fabric of our client's vision. You’ll find a kindred spirit in us, a relentless pursuit of perfection and an understanding of the nuances of software development that only comes with experience.
+
+Here's a glimpse of our previous work, which I believe matches with your needs:
+Penny Finance: http://penny-finance.com/
+HitMeApp: http://hitmeapp.com/
+Nurture By Naps: http://nurturebynaps.com/
+DryBar: http://drybarshops.com/
+DwellOptimal:http://dwelloptimal.com/
+
+Our work at http://penny-finance.com/ and http://hitmeapp.com/, among others, showcases our commitment to excellence and our ability to adapt to our clients' evolving needs. For a more comprehensive view, here’s a window into our world of work: http://drive.google.com/file/d/1RQs3yN92m94bQ71IKGMUc9wax5QZa2k4/view
+
+We’re no strangers to positive feedback; our clients have shared their experiences working with us at http://clutch.co/profile/valere-labs#reviews, a testament to our partnership approach.
+
+Understanding your project, it’s clear that a partnership with Valere means enlisting a team that’s invested in your success for the long haul. Shall we initiate a conversation to navigate the specifics of your vision?
+
+Thanks for your consideration
+
+Dan Russo - http://valere.io/",,Full Stack Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762999021568Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274383
+UX/UI,https://www.upwork.com/jobs/~01aa9c8b9ed8be252b,"The UX/UI Designer role is pivotal in creating user-centered, visually compelling digital experiences. You'll collaborate with teams to design intuitive interfaces, bridging user needs with business goals and technology capabilities.
+Key Responsibilities:
+User Research and Analysis:
+Conduct research and usability testing.
+Analyze data to inform design decisions.
+Information Architecture:
+Develop logical content organization.
+Create sitemaps and user flows.
+Wireframing and Prototyping:
+Create wireframes and interactive prototypes.
+Iterate based on feedback and testing.
+Visual Design:
+Design interfaces aligning with brand guidelines.
+Select colors, typography, and icons.
+Interaction Design:
+Define user interactions and animations.","Hello there!
+
+Running straight into the heart of your project, the imminent product launch you're gearing up for is nothing short of inspiring. You're on the lookout for someone who doesn't just handle UX/UI weaving the user's narrative tapestry but also comes across knees deep with the end-user's journey. And I must say, having navigated the waters of digital design for over a decade, my team and I are prepared to anchor your vision with precision and creativity.
+
+Let's address the elephant in the room – those rates. They speak to a shrewdness for value, and that's exactly where our paths cross. My previous ventures peek at them are available on http://dwelloptimal.com/ and http://drybarshops.com/ underline a track record where affordability meets world-class design, no shortcuts taken.
+
+To zero in on what you need, I'm curious about the brand's heartbeat – your design language, your do's and don'ts. This isn't just about meeting expectations but about embodying the essence of your brand. And if there's a particular direction or a mood board you have in mind, consider us all ears.
+
+Check out some projects we’ve done recently!
+http://dwelloptimal.com/http://drybarshops.com/http://creator-sync.com/http://nurturebynaps.com/http://guardrails.io/
+
+If our collective ethos aligns, I'm keen to hash out the finer points over a call. Meanwhile, feel free to peruse our portfolio at [insert portfolio URL], and don't miss out on the stories our clients share at Clutch – it’s quite the repository of our shared successes - http://clutch.co/profile/valere-labs
+
+Thanks for your consideration.
+
+Guy",,Skills and Expertisehttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626791742586880https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580633431166976https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626742929276928https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795181916160https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626792342372352https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580728344072192https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162208999198726https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162208982421521https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1052162209007587329https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626748750970880
+AR/VR,https://www.upwork.com/jobs/~018f6346d07263bb4f,"We are looking for an experienced AR/VR Developer to join our team. The ideal candidate will have a strong background in developing immersive and interactive experiences using AR and VR technologies. This is a great opportunity for someone passionate about pushing the boundaries of digital reality and creating cutting-edge experiences. The successful candidate will work closely with our design team to develop AR/VR applications for various platforms. Key responsibilities include designing and implementing AR/VR solutions, optimizing performance, and troubleshooting technical issues.
+Required skills:
+- Strong knowledge of AR/VR development frameworks and tools
+- Proficiency in Unity3D or Unreal Engine
+- Familiarity with 3D modeling and animation
+- Experience in C# or C++ programming
+- Good problem-solving skills
+- Strong communication and teamwork skills","Hello there! 😁
+
+Your project on AR/VR development immediately stood out to me. As someone deeply immersed in the realm of interactive digital experiences, the vision you've laid out for pushing boundaries within digital reality is precisely the kind of challenge my team and I relish. And when it comes to VR, I usually start getting my body and joints going at least 25 minutes before I start my day. Therefore, I'm a big VR enthusiast. The Quest 3 mixed reality is out of this world, a godsend. I'd love to get on a call and chop it up with you.
+
+With a strong footing in Unity3D and a penchant for 3D modeling and animation, I've spearheaded numerous projects from conception to successful execution. My programming skills in C# and C++ are not just theoretical but tested and honed through various interactive applications, much like the exciting opportunity you present.
+
+Elete Basketball Mastery 🏀
+Revolutionizing Ball-handling Skills Through AR
+Elete: http://apps.apple.com/us/app/elete-dribbling-training/id1454189239A Harnesses AR/AI to gamify basketball training and skill development.
+
+ARCore Multi-Device Interaction 📱
+Simultaneous Content Engagement Across Devices
+http://youtu.be/7ujhKDoOVrU
+Enables content interaction across multiple devices using ARCore.
+
+Sodimac Peru VR Adventure 🚣
+Rowing Journey With Summer Product Displays
+http://youtu.be/0Tpy7w8coUM
+Offers a VR tropical rowing experience, showcasing summer products amidst natural scenery.
+
+Manchester United 360 Experience by Chivas Regal ⚽
+Immersive Stadium Visit With Purchase Incentive
+http://youtu.be/EeT154GU5GM
+Takes users on a 3D journey to Old Trafford, promoting a product purchase raffle for a player meet-and-greet.
+
+Oncosalud Educational Experience 🩺
+Multimodal Learning Through 3D and Holograms
+http://youtu.be/b95PGQXZ5LI
+Oncosalud Clinic's educational tool uses 3D animations and “holograms” of doctors for effective learning.
+
+Magic Cubes AR Battles at AWE 🎲
+Engage in Augmented Reality Battles With Animated Characters
+http://youtu.be/zAMfIpFxXVQ & http://youtu.be/_lLwGeFLHUc
+Guests engage characters in AR battles by combining cubes at the AWE convention.
+
+Navigating through technical challenges while keeping performance optimized is where I find the sweet spot between work and passion. In team collaborations, I bring a communicative and problem-solving mindset that ensures seamless integration of efforts towards a common goal.
+
+Considering the requirements you've outlined, I am confident in my team's ability to bring top-tier expertise and a personalized touch to your project. The long-term potential here is clear, and the impact on the AR/VR landscape could be substantial. Honestly, these are the jobs that fire me up. Therefore I'm looking forward to getting to know more.
+
+Let's craft a digital reality that sets new standards.
+
+Thanks for your consideration.
+
+Guy",,https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628016885781https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628000108553https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580485430956032https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580735973511168https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628021080069
+Full Stack Development,https://www.upwork.com/jobs/~01d7b7aed6e0375f8d,"We are looking for a talented Senior Next.js Developer to join our dynamic team on a temporary basis. As a hybrid remote employee, you will have the opportunity to work on exciting web-based projects and collaborate with a passionate and creative team. If you have a strong background in Next.js and a knack for headless CMS (Wordpress), we'd love to hear from you!
+Key Responsibilities:
+As a Senior Next.js Developer, your role will encompass a variety of responsibilities, including but not limited to:
+Leading programming projects from conception to implementation, following Agile Scrum and Waterfall development methodologies.
+Collaborating closely with business stakeholders to define project scope and software requirements.
+Designing and developing web applications with a keen focus on architecture and best practices.
+Maintaining our organization's websites, including testing and continuous integration.
+Conducting data analysis and modeling to drive data-driven decisions.
+Assisting in project management, cost estimation, and project planning.
+Providing guidance and direction to the development team, ensuring high programming standards and timely deliverables.
+Leading web application design by implementing UX and responsive design best practices.
+Integrating data from various back-end services and databases.
+Creating and maintaining software documentation to ensure a clear and organized development process.
+Conducting code and peer reviews to maintain high-quality deliverables.
+Evaluating new software packages, techniques, and development tools and making recommendations to enhance our development process.
+Staying up to date with emerging technologies and industry trends to apply them effectively.
+Collaborating with the creative design team and other developers to enhance productivity.
+Mentoring junior colleagues in the IT team when needed.
+Qualifications:
+Work Experience:
+7-10 years of relevant experience in web development, with a strong emphasis on Next.js.
+Hybrid remote work experience.
+We offer a supportive and collaborative work environment, competitive compensation, and the opportunity to work on exciting projects that make a real impact. If you're a proactive and experienced developer ready to take on a new challenge, we invite you to apply and become part of our team.
+Please note that experience with ""Next.js Version 13.4"" is required for this position.
+We look forward to hearing from you and potentially welcoming you to our team!
+Employment Type: Full-Time
+Education Level: No formal educational credential","Hi there! Happy Monday!
+
+It's a pleasure to discover your Next.js developer opportunity. Your emphasis on creating impactful web experiences speaks volumes, and I believe my team is well-equipped to elevate your projects to new heights. With 10+ years under our belt, We have mastered the art of crafting seamless and engaging digital landscapes. Our projects - from http://penny-finance.com/ to http://hitmeapp.com/ - showcase our dedication to excellence and innovation.
+
+Your vision for a dynamic, results-driven web presence refelcts harmoniously with our foundational strengths. Positioned as we stand, after navigating the ebb and flow of industry tides over the decade, we appreciate the essence of interlacing our proficiency in Next.js, especially version 13.4, with your visionary pursuits. This synergy carves a trail towards triumph, akin to a sculptor chiseling masterpieces, culminating in resilient, nimble, and audience-tailored web applications.
+
+Here's a glimpse of our previous work, which I believe matches with your needs:
+Penny Finance: http://penny-finance.com/
+HitMeApp: http://hitmeapp.com/
+Nurture By Naps: http://nurturebynaps.com/
+Elete Basketball: http://eletebasketball.com/
+DryBar: http://drybarshops.com/
+DwellOptimal:http://dwelloptimal.com/
+
+Concluding with panache, our joint endeavor doesn't merely aim to touch the horizon but to draw new constellations in the realm of digital brilliance.
+We're not just about code; we're about creating experiences that leave a lasting impact. This aligns us perfectly with your quest for a proactive developer ready to embrace hybrid remote challenges.
+
+Let's connect to weave your web development goals into reality.
+
+Looking forward,
+
+Guy - http://valere.io/
+
+P.S.: Our reputation for excellence is echoed by our clients on Clutch. Do take a moment to explore our reviews at http://clutch.co/profile/valere-labs for a deeper understanding of the value we bring to the table.",,Full Stack Development Skillshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762688643072Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274383https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762999021568https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745110315008https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364627995914245https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626795211276288https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1110580676779298816
+Front-End Development,https://www.upwork.com/jobs/~019f8645dac1a4bdd5,"That headline perfectly describes what we are looking for.
+Is it OK if I’m completely honest with you? Here are the qualities I’m seeking:
+Detail-oriented: A really good front-end developer who misses a few of the details can end up causing a lot of back and forth. And I know that’s not fun for you. The solution is to make notes upfront and cross-reference them before sending out your work. Some people truly enjoy being detail-oriented, and some can do it for a while. I can tell you with certainty that we’re always expecting detailed, error-free work, so if that isn’t your style, you will not enjoy working with us. And I very much want you to enjoy yourself.
+Likes routine: Don’t get me wrong. Inventing new things is fun, but routine is also beautiful. I can speak for myself: I’d rather sit in my corner and work on what I enjoy versus dealing with a new drama every day. We love routine. If you’re the same, you’ll like this mission.
+Is efficient: Oftentimes, people quote low prices to get the project, but they work slow. People who charge $20/hr beat our front-end developers who charge $30/hr.
+But if this $20/hr developer takes 3 hours to some front-end code and the $30/hr resource takes 2 hours, I’m better off hiring the more expensive resource.
+Rate games are silly. Charge your worth and focus on doing good work.
+A little about us: we’re a marketing agency that sets A/B tests for clients. We use testing tools like http://vwo.com/ and http://convert.com/. An example: https://www.loom.com/share/164a8a2e7c494e459de3c16647406cf2
+Once we have a test winner, you will be required to hardcode it on the client’s site, so knowledge of Shopify and WooCommerce is a must.
+Looking for a front-end developer (solo practitioner, not an agency) with proficiency in HTML5, CSS3, and vanilla JavaScript is essential.
+Why you should apply: I am trying to find a candidate who has these 3 qualities:
+Is detail-oriented (doesn’t miss details)
+Like routine
+Is competent
+Is efficient
+Is responsive on WhatsApp
+And I’m willing to pay a lot for someone with these qualities.
+So here’s the deal: let’s start with $30/hr, and if, within 90 days, you can demonstrate the 5 qualities above, you immediately qualify for a new hourly rate of $80/hr. If this sounds fair, let’s chat.","Hi Rishi and Simon! Happy Monday.
+
+It's refreshing to come across a listing that pinpoints exactly what you want. You're seeking not just a developer, but a craftsman of code who treats routine with reverence. This approach is the cornerstone of how we operate at Valere. I know you're looking for an individual developer; however, let's get on a call so I can break down in fine detail why, for the same rate, you can have an army of coders at your disposal.
+
+In my tenure as CEO, I've fostered a culture where meticulous attention to detail is the norm. It's not just about getting the job done; it's about elevating every detail to its utmost potential. And when it comes to routine, we don't just enjoy it; we thrive in it. There’s a unique satisfaction in perfecting the regular rhythms of coding, much like a composer with their symphonies.
+
+Efficiency is our shared language. We're on the same page that value trumps the allure of low rates. It's not about the time spent, but the milestones achieved. To that end, we've streamlined our processes to ensure that every hour is an investment towards unequivocal quality.
+
+Here's a glimpse of our previous work, which I believe matches with your needs:
+Penny Finance: http://penny-finance.com/
+HitMeApp: http://hitmeapp.com/
+Nurture By Naps: http://nurturebynaps.com/
+DryBar: http://drybarshops.com/
+DwellOptimal:http://dwelloptimal.com/
+
+Understanding your dedication to A/B testing, we've honed our skills with tools like http://vwo.com/ and http://convert.com/, ensuring that once a winning test is declared, it transitions seamlessly into a robust feature on any client's platform. And when it comes to Shopify and WooCommerce, these are the playgrounds we've built our expertise on.
+
+Our past projects, such as Penny Finance and DwellOptimal, underscore our fluency in HTML5, CSS3, and vanilla JavaScript. The thoroughness you value is reflected in the impeccable reviews on our Clutch profile, which I warmly invite you to peruse at your leisure: http://clutch.co/profile/valere-labs#reviews.
+
+ooking forward to crafting not just code, but a lasting partnership with you.
+
+Warmest regards,
+
+Guy - http://valere.io/
+•","Why are you applying for this position?I'm proud to say that we've earned an Expert-Vetted Badge from Upwork, which has ranked us among the top 1% of software development talent on the platform
+Ranked by Clutch.co in the Top App Developers and Web Developer in Massachusetts
+We’ve done projects for some big names: Johns Hopkins and Shell
+Past clients have used web and mobile apps developed by Valere to raise over $50 million (USD) in funding.
+Recently published in Upworks Q2 2023 Shareholder Report https://investors.upwork.com/static-files/180457e2-1f5a-4b9b-8d0c-ee28a8e56341 please refer to page 5, 6, and 7 to see some of our work.
+Not only do we offer a comprehensive discovery process but our discovery leads are certified for product discovery and management.
+We have proudly joined Upwork's Customer Advocacy Program, an elite program designed to provide media and marketing opportunities to Upwork's top talent.
+
+I'm happy to report that our company is a member of the AWS Partner Network
+lessInclude a link to your GitHub profile and/or websitewebsite: valere.io/",https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274383https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745110315008https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626726017843200https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626728794472448
+Machine Learning,https://www.upwork.com/jobs/~0189d65d03bfddabd0,Want to build a voice recognition/noise cancelling App used for telemarketers and about 5 other different applications for other uses.,"Hello there!
+
+As the landscape of telemarketing technology advances, the clamor for solutions like yours grows louder. Your vision for a voice recognition/noise-canceling app with the kind of innovative work we champion at Valere. We understand the challenges that telemarketers face, from background noise to the need for clear communication. At Valere, our previous success with projects such as http://athes.io/ and http://predictionhealth.com/ demonstrates our art in harnessing AI to enhance human experience and performance.
+
+What you're aiming for with your app is not just a tool, but a game-changer for professionals in high-noise environments. We get that, and it's where we shine. With your focus on long-term engagement and our dedication to delivering nothing short of excellence, I believe we're looking at the start of a remarkable collaboration. We're not just here to build an app; we're here to set a new standard in the industry.
+
+Our Projects:
+Athes: http://athes.io/
+Elete: http://apps.apple.com/us/app/elete-dribbling-training/id1454189239
+PredictionHealth: http://predictionhealth.com/
+Datalux: http://datalux.com/
+Hopps: http://hopps.io/
+Genesis Research: http://genesisrg.com/
+
+For a detailed exposition of our projects and their impact, let's direct our conversation to these resources:
+
+Our track record: http://drive.google.com/file/d/1s_o5l9opR1bDmjqONdYtcL0bWhmHlw0F/view?usp=sharing
+Client stories and successes: http://clutch.co/profile/valere-labs
+Imagine an app that not only serves its purpose but also sets the benchmark for future technology. That's what we aim to create with you.
+
+Let's get together on a call to map out the nuances and set the wheels in motion. Thank you for considering a partnership with Valere. It's more than a project; it's the future taking shape.
+
+Thanks for your consideration.
+
+Guy- http://valere.io/
+
+P.S. - For a sneak peek into how we're driving the AI revolution, take a moment for this article: http://upwork.com/success-stories/using-ai-at-valere-labs",,https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626755474440192https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626716094119936https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626730904207360https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626761858170880
+Machine Learning,https://www.upwork.com/jobs/~01c203289ce472e5db,"AI Engineer - AI Platform with Chat Bot Mentor, Resume Builder, Job Matching, and Interview AI
+
+We are seeking a talented AI Engineer to join our innovative team working on an AI platform that encompasses various cutting-edge features including an AI Chat Bot Mentor, AI Resume Builder and Analysis, AI Job Matching, and AI Interview capabilities. As an AI Engineer, you will play a crucial role in developing and improving these AI-driven functionalities to provide users with a seamless and personalized job search experience.
+
+Key Responsibilities:
+
+1. AI Chat Bot Mentor: Collaborate on the design, development, and enhancement of an AI-powered chat bot mentor that offers career guidance, job search tips, and interview preparation assistance.
+2. AI Resume Builder and Analysis: Work on the creation of an AI-driven resume builder that assists users in crafting compelling resumes and provides in-depth analysis to help them stand out to potential employers.
+3. AI Job Matching: Develop algorithms and models for intelligent job matching, utilizing user profiles and job listings to recommend relevant positions.
+4. AI Interview: Contribute to the creation of AI-powered interview preparation tools and mock interview simulations.
+
+Skills and Qualifications:
+- Strong programming skills in languages such as Python, Java, or C++.
+- Proficiency in machine learning and natural language processing (NLP) techniques.
+- Experience with deep learning frameworks like TensorFlow or PyTorch.
+- Knowledge of chatbot development and conversational AI.
+- Understanding of resume analysis and parsing.
+- Familiarity with job matching algorithms and recommendation systems.
+- Ability to work collaboratively in a dynamic team environment.
+- Strong problem-solving skills and a passion for AI technology.
+
+This is an exciting opportunity to work on a multifaceted AI platform that empowers individuals in their career journeys. If you are a skilled AI Engineer who is passionate about shaping the future of job search and career development, we encourage you to apply and join us in revolutionizing the industry.","Hello there and Happy Monday!
+
+Your project speaks volumes about the transformative power of AI in career development, a mission that matches closely with my values. Your vision for an AI platform that simplifies the job search and preparation process is not just timely, it’s revolutionary. We’ve carved out success by breathing life into AI solutions that not just meet, but exceed our clients' expectations. For instance, our AI-driven project 'Athes' elevated athlete engagement, while 'Elete' brought a new competitive edge to sports with its gamified skill enhancement. These are a testament to our dedication to not just building but revolutionizing with AI.
+
+Reading into the role of an AI Engineer on your team, it’s clear that our paths are not just crossing; they’re about to collide. Our proficiency in Python, Java, and C++ coupled with our practical mastery of TensorFlow and PyTorch sets the stage for crafting the AI Resume Builder and Analysis that you’re envisioning. Our hands-on experience with chatbot development and conversational AI primes us to elevate the AI Chat Bot Mentor feature to new heights.
+
+Our commitment to collaborative innovation and outcome-focused development mirrors the dynamic team environment you’re cultivating. Valere isn't just about developing, it's about empowering and pioneering – a synergy with the AI-driven future you aim to build.
+
+Diving into your requirements, we notice the emphasis on seamless integration and user experience. This aligns with our project ‘PredictionHealth’, where we interwove AI into therapy notes for a more intuitive user interface. Similar to 'Datalux', where AI-driven automation turned financial reconciliation from a chore into a streamlined process, we understand the transformative impact of AI when it’s done right.
+
+Here's a glimpse of our projects that speak to our claims:
+
+Our Projects:
+Athes: http://athes.io/
+Elete: http://apps.apple.com/us/app/elete-dribbling-training/id1454189239
+PredictionHealth: http://predictionhealth.com/
+Datalux: http://datalux.com/
+Hopps: http://hopps.io/
+Genesis Research: http://genesisrg.com/
+
+We take pride not only in our technical prowess but also in our client-centric approach, ensuring transparency and a continuous feedback loop that keeps us perfectly in sync with your goals.
+
+I’d relish the opportunity to delve deeper into how Valere Labs can be the catalyst to your platform’s success. Let's discuss further how we can collaborate on this exciting journey.
+
+Thanks for your consideration.
+
+Guy - http://valere.io/",,Machine Learning Deliverableshttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626730384113664https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1253342869935763456https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1253342872917913600https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1253342885165281280https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1253342887048523776Otherhttps://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626716094119936https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626755474440192https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626770871730176https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274386https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626726676348928
+Front-End Development,https://www.upwork.com/jobs/~0149cd338f1f0d04c9,"Need a front end UI developer for a very reactive front end that can dynamically create graphs, charts and complex visualization of data structures","Hello there! Happy Monday!
+
+Reading into your project details, I couldn't help but feel a surge of enthusiasm. It's not every day you come across a venture that not only seeks top-notch technological expertise but also appreciates the fine art of data storytelling through visualizations.
+
+I'm Guy Pistone, the founder of Valere. We're not your average software development house; we're a collective of visionaries dedicated to breathing life into digital landscapes. Your search for a Front-End UI Developer who is not only versed in React and D3 but also possesses the finesse to construct intricate data structures with a user-centric design matches perfectly with our core strengths.
+
+Our past projects, such as the transformational work for Nurture By Naps, and the interactive basketball training app Elete, serve as testaments to our commitment to excellence and innovation. What's common between these success stories and your needs is a relentless pursuit of creating interfaces that not only serve their functional purpose but also delight the end-user.
+
+Check out some projects we’ve done recently!
+http://dwelloptimal.com/http://drybarshops.com/http://creator-sync.com/http://nurturebynaps.com/http://guardrails.io/
+
+Imagine a partnership where your front-end is crafted not just to meet the needs of today but engineered to adapt to the technological advancements of tomorrow. Every graph and chart doesn't just display information but tells a story, engages its audience, and compels action.
+
+Let's not just build a reactive front-end; let's create a living, breathing digital entity that's as dynamic as the data it represents. I’m keen to delve into the specifics of your vision and explore how we can turn that into reality.
+
+Also, please check out our in-depth reviews and analysis on the leading B2B review site, Clutch: http://clutch.co/profile/valere-labs.
+
+Warmest regards,
+
+Guy - http://valere.io/
+
+P.S.: I believe in the power of dialogue to foster innovation, so I'd welcome a chance to discuss this further with you. Shall we set a date for a call?",,https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626773660942336https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626762999021568https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626728794472448https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626729314566144https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=996364628025274383https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626745118703616https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1192876959218548736https://www.upwork.com/nx/jobs/search/?ontology_skill_uid=1031626743004774400
+Full Stack Development,,"We are trying to develop margin/perpetual trading platform.
+Dev team should have experience with centralized exchange service development.
+In your proposal, plz list cex services that you developed before.
+And should included trading volume, and tx speed that order match engine can handle.
+You will use your order match engine to our project development.
+We have spec and timeline requirement, but budget will be discussed with selected dev team",,,
+,,,,,
+,,,,,
+,,,,,

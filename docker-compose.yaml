@@ -1,31 +1,41 @@
-version: '3'
-
 services:
-  mysql:
-    image: mysql:8.0
-    restart: always
+  # backend:
+  #   image: 1_backend:latest
+  #   ports:
+  #     - 8000:8000
+  #   environment:
+  #     - OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+  response_synthesyzer:
+    image: 3_response_synthesizer_api:latest
     ports:
-      - "3306:3306"
+      - 5050:5050
     environment:
-      MYSQL_DATABASE: "epgptech"
-      MYSQL_ROOT_PASSWORD: "password"
+      - OPENAI_API_KEY=OPENAI_API_KEY
+      - PG_CONNECTION_URL=postgresql://testuser:testpwd@pgvector:5432
+  # db:
+  #   image: postgres:14.1-alpine
+  #   restart: always
+  #   environment:
+  #     - POSTGRES_USER=postgres
+  #     - POSTGRES_PASSWORD=postgres
+  #   ports:
+  #     - '5432:5432'
+  #   volumes: 
+  #     - db:/var/lib/postgresql/data
+  pgvector:
+    hostname: pgvector
+    image: ankane/pgvector
+    ports:
+     - 5432:5432
+    restart: always
+    environment:
+      - POSTGRES_DB=vectordb
+      - POSTGRES_USER=testuser
+      - POSTGRES_PASSWORD=testpwd
+      - POSTGRES_HOST_AUTH_METHOD=trust
     volumes:
-      - ./data:/docker-entrypoint-initdb.d
-      - ep-volume:/var/lib/mysql
-    healthcheck:
-      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
-      timeout: 30s
-      retries: 10
-  db:
-    image: postgres:14.1-alpine
-    restart: always
-    environment:
-      - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-    ports:
-      - '5432:5432'
-    volumes: 
-      - db:/var/lib/postgresql/data
+     - ./init_pg.sql:/docker-entrypoint-initdb.d/init.sql:ro
+
 volumes:
   ep-volume:
   db:

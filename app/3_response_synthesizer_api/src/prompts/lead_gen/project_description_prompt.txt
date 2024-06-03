@@ -1,0 +1,6 @@
+The following text is a requirement for a job posting:
+$project_requirement
+
+Generate an output with a structured breakdown of the job posting. This output should be a json with the exact structure and parameters shown in the following example:
+$json_output_str
+It's mandatory that if a value for the field in the json cannot be identified just add in that field N/A

@@ -1,0 +1,65 @@
+{
+    "proposal_submission_details": {
+      "required_connects_to_submit_proposal": 15,
+      "available_connects": 842
+    },
+    "client_information": {
+      "payment_method": "Verified",
+      "rating": 5,
+      "location": "Korntal, Germany",
+      "local_time": "3:14 PM",
+      "number_of_jobs_posted": 10,
+      "hire_rate": 50,
+      "open_jobs": 1,
+      "total_amount_spent": 1400,
+      "number_of_hires": 7,
+      "active_hires": 2,
+      "industry": "Media & Entertainment",
+      "membership_since": "Jun 11, 2023"
+    },
+    "project_information": {
+      "project_name": "Real-Time Video Virtual Try-On Application Development",
+      "job_description": "We are seeking a skilled developer or development team to create a real-time video virtual try-on application. The application should allow users to virtually try on various items (e.g., clothing, accessories) using their video feed in real-time. This project will utilize the framework available at GitHub - c0ldheart/video-virtual-try-on, or https://humanaigc.github.io/outfit-anyone/, which should be integrated and possibly expanded based on our project needs.",
+      "objectives": [
+        "Real-Time Interaction: Users should be able to see themselves wearing virtual items in real-time as they move in front of their camera.",
+        "High Performance: The application must perform well with low latency to ensure a smooth user experience.",
+        "User Interface: Develop a simple and intuitive user interface that allows users to select and switch between different virtual items.",
+        "Compatibility: Ensure the application is compatible across various devices and platforms, including web and mobile interfaces."
+      ],
+      "technical_requirements": {
+        "languages": ["Python", "JavaScript"],
+        "frameworks": ["TensorFlow", "PyTorch"]
+      },
+      "deliverables": [
+        "A fully functional real-time video virtual try-on application.",
+        "Documentation detailing the architecture, technologies used, and a guide for integrating with other systems.",
+        "Source code with appropriate comments and a clear structure."
+      ],
+      "total_project_duration": "4 weeks",
+      "selection_criteria": [
+        "Previous experience with virtual try-on technologies or similar AR projects.",
+        "Portfolio of past projects that includes work with real-time video processing.",
+        "Positive testimonials or ratings on Upwork."
+      ],
+      "proposal_requirements": [
+        "Outline your approach to the project.",
+        "Provide a timeline with milestones and deliverables.",
+        "Include any questions you have about the project scope or technical aspects."
+      ],
+      "job_information": {
+        "experience_level": "Intermediate",
+        "compensation": "To be determined (Fixed Price or Hourly)",
+        "job_commitment": "Full-time or Part-time",
+        "estimated_duration": "4 weeks",
+        "skills_and_expertise": [
+          "Python",
+          "JavaScript",
+          "TensorFlow",
+          "PyTorch",
+          "Real-Time Video Processing",
+          "Augmented Reality (AR)",
+          "User Interface Development"
+        ]
+      }
+    }
+  }

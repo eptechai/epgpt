@@ -1,4 +1,0 @@
-pika
-google-cloud-storage
-google-cloud-pubsub
-google-cloud-logging

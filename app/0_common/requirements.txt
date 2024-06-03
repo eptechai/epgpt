@@ -1,0 +1,5 @@
+pika
+google-cloud-storage
+google-cloud-pubsub
+google-cloud-logging
+boto3==1.34.105
